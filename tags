@@ -1,0 +1,231 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+01               	tex/algorithm.tex	/^\\section{动态规划（01 背包问题）}$/;"	s
+Arr	richard/bubble/b.cpp	/^void Arr(){$/;"	f
+Arr	richard/bubbleSort/bubbleSort.cpp	/^void Arr(){$/;"	f
+Arr	richard/new/bubble/b.cpp	/^void Arr(){$/;"	f
+Arr	richard/new/richard/bubble/b.cpp	/^void Arr(){$/;"	f
+BFS                  	tex/algorithm.tex	/^\\section{BFS广度优先搜索}$/;"	s
+Dijkstra         	tex/algorithm.tex	/^\\section{最短路径（Dijkstra 算法）}$/;"	s
+NOIP2002                  	tex/algorithm.tex	/^\\section{NOIP2002普及组第一题}$/;"	s
+PI	ritchie/m.cpp	2;"	d	file:
+a	5bus.cpp	/^array<int, 2> a[mxN], mx[mxN+2][3], c[mxN][mxN];$/;"	v
+addEdge	6transform.cpp	/^inline void addEdge(int a, int b) {$/;"	f
+ans	5bus.cpp	/^int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];$/;"	v
+b	5bus.cpp	/^bool b[mxN];$/;"	v
+binarySearch	2binarySearch.cpp	/^bool binarySearch(const std::vector<int>& vec, int target) {$/;"	f
+binarySearch	tex/algorithm.tex	/^\\section{binarySearch}$/;"	s
+bubble	richard/bubble/b.cpp	/^void bubble(vector<int>& arr){$/;"	f
+bubble	richard/bubbleSort/bubbleSort.cpp	/^void bubble(vector<int>& arr){$/;"	f
+bubble	richard/bubblesort/bubble.cpp	/^void bubble(vector<int>&arr){$/;"	f
+bubble	richard/new/bubble/b.cpp	/^void bubble(vector<int>& arr){$/;"	f
+bubble	richard/new/richard/bubble/b.cpp	/^void bubble(vector<int>&arr){$/;"	f
+bubbleSort	14bubbleSort.cpp	/^void bubbleSort(vector<int>& arr){$/;"	f
+bubbleSort	ritchie/f.cpp	/^void bubbleSort(vector<int>& arr){$/;"	f
+bubbleSort	ritchie/sort/bubble/bubble.cpp	/^void bubbleSort(vector<int>& arr){$/;"	f
+bubbleSort	ritchie/sort/bubble/bubbleSort.cpp	/^void bubbleSort(vector<int>& arr){$/;"	f
+bubbleSort            	tex/algorithm.tex	/^\\section{bubbleSort冒泡排序}$/;"	s
+bus	tex/algorithm.tex	/^\\section{bus}$/;"	s
+c	5bus.cpp	/^array<int, 2> a[mxN], mx[mxN+2][3], c[mxN][mxN];$/;"	v
+candy	tex/algorithm.tex	/^\\section{candy}$/;"	s
+d	5bus.cpp	/^int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];$/;"	v
+dag	tex/algorithm.tex	/^\\section{dag}$/;"	s
+decode	tex/algorithm.tex	/^\\section{decode}$/;"	s
+deg	6transform.cpp	/^int deg[maxN];$/;"	v
+dfs	6transform.cpp	/^void dfs(int i,bool s) { $/;"	f
+dfs                  	tex/algorithm.tex	/^\\section{dfs深度优先搜索}$/;"	s
+e	5bus.cpp	/^int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];$/;"	v
+e	6transform.cpp	/^} *v[maxN], e[maxM];$/;"	v	typeref:struct:edge
+ec	6transform.cpp	/^int ec;$/;"	v
+edge	6transform.cpp	/^struct edge {$/;"	s	file:
+expr	tex/algorithm.tex	/^\\section{expr}$/;"	s
+f	richard/csp-j/csp-j2023/csp-j1/csp.cpp	/^float f(float a,float b,float c){$/;"	f
+fibonacci	9fibonacci.cpp	/^int fibonacci(int n){$/;"	f
+fruit	tex/algorithm.tex	/^\\section{fruit}$/;"	s
+gcd	7lcm.cpp	/^int gcd(int a,int b){$/;"	f
+gcd	richard/gcd/gcd.cpp	/^int gcd(int a,int,b){$/;"	f
+gcd	richard/lcm/l.cpp	/^int gcd(int a,int b){$/;"	f
+gcd	richard/new/gdb/g.cpp	/^int gcd(int a,int b){$/;"	f
+gcd	richard/new/richard/gcd/g.cpp	/^int gcd(int a,int b){$/;"	f
+gcd	richard/new/richard/lcm/lcm.cpp	/^int gcd(int a,int b){$/;"	f
+gcd	ritchie/gcd.cpp	/^int gcd(int a, int b){$/;"	f
+gcd	ritchie/z.cpp	/^int gcd (int x,int y){$/;"	f
+gcd               	tex/algorithm.tex	/^\\section{gcd最大公约数}$/;"	s
+gdb	10gdb.cpp	/^int gdb(int a,int b){$/;"	f
+gdb	richard/gdb/gdb.cpp	/^int gdb(int a,int b){$/;"	f
+h	1expr.cpp	/^	int h;$/;"	m	struct:node	file:
+h	richard/expr/e.cpp	/^		    int h;$/;"	m	struct:node	file:
+h	ritchie/77.cpp	/^    int h;$/;"	m	struct:node	file:
+init	6transform.cpp	/^void init() {$/;"	f
+josephus	tex/algorithm.tex	/^\\section{josephus}$/;"	s
+lcm	7lcm.cpp	/^int lcm(int a,int b){$/;"	f
+lcm	richard/lcm/l.cpp	/^int lcm(int a,int,b){$/;"	f
+lcm	richard/new/richard/lcm/lcm.cpp	/^int lcm(int a,int b){$/;"	f
+live	tex/algorithm.tex	/^\\section{live}$/;"	s
+main	10gdb.cpp	/^int main(){$/;"	f
+main	11.cpp	/^int main(){$/;"	f
+main	12.cpp	/^int main(){$/;"	f
+main	13apple.cpp	/^int main(){$/;"	f
+main	14bubbleSort.cpp	/^int main(){$/;"	f
+main	15minMix.cpp	/^int main() {$/;"	f
+main	16morning.cpp	/^int main() {$/;"	f
+main	17tree.cpp	/^int main(){$/;"	f
+main	18quickSort.cpp	/^int main(){$/;"	f
+main	19num.cpp	/^int main(){$/;"	f
+main	1expr.cpp	/^int main(){$/;"	f
+main	20shuffleParty.cpp	/^int main() {$/;"	f
+main	21string.cpp	/^int main(){$/;"	f
+main	22theft.cpp	/^int main() {$/;"	f
+main	2binarySearch.cpp	/^int main() {$/;"	f
+main	3pow.cpp	/^int main(){$/;"	f
+main	4power.cpp	/^int main(){$/;"	f
+main	5bus.cpp	/^int main() {$/;"	f
+main	6transform.cpp	/^int main() {$/;"	f
+main	7lcm.cpp	/^int main(){$/;"	f
+main	8noip2022-1.cpp	/^int main(){$/;"	f
+main	9fibonacci.cpp	/^int main(){$/;"	f
+main	richard/apple/apple.cpp	/^int main(){$/;"	f
+main	richard/arr/a.cpp	/^int main(){$/;"	f
+main	richard/bubble/b.cpp	/^int main(){$/;"	f
+main	richard/bubbleSort/bubbleSort.cpp	/^int main(){$/;"	f
+main	richard/bubblesort/bubble.cpp	/^int main(){$/;"	f
+main	richard/c++/c.cpp	/^int main(){$/;"	f
+main	richard/candy/c.cpp	/^int main(){$/;"	f
+main	richard/candy/candy.cpp	/^int main(){$/;"	f
+main	richard/csp-j/csp-j2023/csp-j1/csp.cpp	/^int main(){$/;"	f
+main	richard/decode/d.cpp	/^int main(){$/;"	f
+main	richard/decode/decode.cpp	/^int main(){$/;"	f
+main	richard/dog/dog.cpp	/^int main(){$/;"	f
+main	richard/dog/dogC.cpp	/^int main(void)$/;"	f
+main	richard/expr/e.cpp	/^int main() {$/;"	f
+main	richard/fout/pow.cpp	/^int main(){$/;"	f
+main	richard/gcd/gcd.cpp	/^int main(){$/;"	f
+main	richard/gdb/gdb.cpp	/^int main(){$/;"	f
+main	richard/lcm/l.cpp	/^int main(){$/;"	f
+main	richard/max/m.cpp	/^int main(){$/;"	f
+main	richard/min/m.cpp	/^int main(){$/;"	f
+main	richard/new/bubble/b.cpp	/^int main(){$/;"	f
+main	richard/new/candy/c.cpp	/^int main(){$/;"	f
+main	richard/new/decode/d.cpp	/^int main(){$/;"	f
+main	richard/new/decode/dec.cpp	/^int main(){$/;"	f
+main	richard/new/gdb/g.cpp	/^int main(){$/;"	f
+main	richard/new/pow/p.cpp	/^int main(){$/;"	f
+main	richard/new/pow/pow.cpp	/^int main(){$/;"	f
+main	richard/new/power/p.cpp	/^int main(){$/;"	f
+main	richard/new/richard/bubble/b.cpp	/^int main(){$/;"	f
+main	richard/new/richard/candy/c.cpp	/^int main(){$/;"	f
+main	richard/new/richard/gcd/g.cpp	/^int main(){$/;"	f
+main	richard/new/richard/lcm/lcm.cpp	/^int main(){$/;"	f
+main	richard/new/richard/pow/p.cpp	/^int main(){$/;"	f
+main	richard/new/richard/pow/pow.cpp	/^int main(){$/;"	f
+main	richard/new/richard/power/power.cpp	/^int  main(){$/;"	f
+main	richard/new/richard/string/s.cpp	/^int main(){$/;"	f
+main	richard/new/richard/string/string.cpp	/^int main(){$/;"	f
+main	richard/new/string/s.cpp	/^int main(){$/;"	f
+main	richard/new/string/str.cpp	/^int main(){$/;"	f
+main	richard/noob/candy/c.cpp	/^int main(){$/;"	f
+main	richard/noob/decode/d.cpp	/^int main(){$/;"	f
+main	richard/noob/pow/p.cpp	/^int main(){$/;"	f
+main	richard/noob/pow/pow.cpp	/^int main(){$/;"	f
+main	richard/noob/pow2/p.cpp	/^int main(){$/;"	f
+main	richard/noob/power/p.cpp	/^int main(){$/;"	f
+main	richard/noob/string/s.cpp	/^int main(){$/;"	f
+main	richard/noob/string/str.cpp	/^int main(){$/;"	f
+main	richard/number/n.cpp	/^int main(){$/;"	f
+main	richard/pow/pow.cpp	/^int main(){$/;"	f
+main	richard/pow2/pow.cpp	/^int main(){$/;"	f
+main	richard/pow3/p.cpp	/^int main(){$/;"	f
+main	richard/pow4/pow.cpp	/^int main(){$/;"	f
+main	richard/power/p.cpp	/^int main(){$/;"	f
+main	richard/power/power.cpp	/^int main(){$/;"	f
+main	richard/string/s.cpp	/^int main(){$/;"	f
+main	richard/string/string.cpp	/^int main(){$/;"	f
+main	richard/struct/struct.cpp	/^int main(){$/;"	f
+main	richard/sum/s.cpp	/^int main(){$/;"	f
+main	richard/union/union.cpp	/^int main(){$/;"	f
+main	ritchie/1+2.cpp	/^int main(){$/;"	f
+main	ritchie/1.cpp	/^int main(){$/;"	f
+main	ritchie/123.cpp	/^int main(){$/;"	f
+main	ritchie/77.cpp	/^int main(){$/;"	f
+main	ritchie/876.cpp	/^int main(){$/;"	f
+main	ritchie/9.cpp	/^int main(){$/;"	f
+main	ritchie/Hello.cpp	/^int main(){$/;"	f
+main	ritchie/ab.cpp	/^int main(){$/;"	f
+main	ritchie/bubbleSsort.cpp	/^int main(){$/;"	f
+main	ritchie/c.cpp	/^int main(){$/;"	f
+main	ritchie/e.cpp	/^int main(){$/;"	f
+main	ritchie/g.cpp	/^int main()$/;"	f
+main	ritchie/gcd.cpp	/^int main(){$/;"	f
+main	ritchie/int.cpp	/^int main(){$/;"	f
+main	ritchie/m.cpp	/^int main()$/;"	f
+main	ritchie/number.cpp	/^int main(){$/;"	f
+main	ritchie/o.cpp	/^int main()$/;"	f
+main	ritchie/p.cpp	/^int main(){$/;"	f
+main	ritchie/pow.cpp	/^int main(){      $/;"	f
+main	ritchie/q.cpp	/^int main(){$/;"	f
+main	ritchie/r.cpp	/^int main(){$/;"	f
+main	ritchie/sort/bubble/bubble.cpp	/^int main(){$/;"	f
+main	ritchie/sort/bubble/bubbleSort.cpp	/^int main(){$/;"	f
+main	ritchie/sum/sum-a-b/ab.cpp	/^int main(){$/;"	f
+main	ritchie/sum/sum.cpp	/^int main(){$/;"	f
+main	ritchie/u.cpp	/^int main()$/;"	f
+main	ritchie/v.cpp	/^int main(){$/;"	f
+main	ritchie/w.cpp	/^int main(){$/;"	f
+main	ritchie/x.cpp	/^int main(){$/;"	f
+main	ritchie/y.cpp	/^int main() {$/;"	f
+main	ritchie/z.cpp	/^int main(){$/;"	f
+mat	6transform.cpp	/^int mat[maxN];$/;"	v
+match	6transform.cpp	/^inline void match(int i,int j) {$/;"	f
+max	richard/max/m.cpp	/^max(int x,int y){$/;"	f
+maxM	6transform.cpp	/^const int maxN = 20001, maxM = maxN * 4;$/;"	v
+maxN	6transform.cpp	/^const int maxN = 20001, maxM = maxN * 4;$/;"	v
+max_expression_value	15minMix.cpp	/^int max_expression_value(vector<int>& a) {$/;"	f
+minTimeToEnterPin	16morning.cpp	/^int minTimeToEnterPin(const string& pin) {$/;"	f
+mx	5bus.cpp	/^array<int, 2> a[mxN], mx[mxN+2][3], c[mxN][mxN];$/;"	v
+mxN	5bus.cpp	/^const int mxN=500;$/;"	v
+n	5bus.cpp	/^int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];$/;"	v
+n	6transform.cpp	/^int n;$/;"	v
+n	richard/bubble/b.cpp	/^int n = arr.size();$/;"	v
+n	richard/bubbleSort/bubbleSort.cpp	/^int n = arr.size();$/;"	v
+n	richard/bubblesort/bubble.cpp	/^int n = arr.size();$/;"	v
+n	richard/new/bubble/b.cpp	/^int n = arr.size();$/;"	v
+n	richard/new/richard/bubble/b.cpp	/^int n = arr.size();$/;"	v
+network	tex/algorithm.tex	/^\\section{network}$/;"	s
+next	6transform.cpp	/^    edge* next;$/;"	m	struct:edge	file:
+noAnswer	6transform.cpp	/^void noAnswer() { $/;"	f
+node	1expr.cpp	/^struct node {$/;"	s	file:
+node	richard/expr/e.cpp	/^struct node {$/;"	s	file:
+node	ritchie/77.cpp	/^struct node {$/;"	s	file:
+nuked	6transform.cpp	/^bool nuked[maxN];$/;"	v
+number	ritchie/m.cpp	/^int number = 0;$/;"	v
+number	tex/algorithm.tex	/^\\section{number}$/;"	s
+nxt	5bus.cpp	/^int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];$/;"	v
+point	tex/algorithm.tex	/^\\section{point}$/;"	s
+position_of_one	20shuffleParty.cpp	/^long long position_of_one(long long n) {$/;"	f
+pow	tex/algorithm.tex	/^\\section{pow}$/;"	s
+power	tex/algorithm.tex	/^\\section{power}$/;"	s
+print	6transform.cpp	/^void print() {$/;"	f
+printArr	14bubbleSort.cpp	/^void printArr(){$/;"	f
+prune	6transform.cpp	/^void prune() { $/;"	f
+quickSort	18quickSort.cpp	/^void quickSort(){$/;"	f
+s	6transform.cpp	/^int s[maxN][2];$/;"	v
+solve	6transform.cpp	/^void solve() { $/;"	f
+solve	tex/algorithm.tex	/^\\section{solve}$/;"	s
+sort	tex/algorithm.tex	/^\\section{sort}$/;"	s
+stack	6transform.cpp	/^int stack[maxN];$/;"	v
+t	6transform.cpp	/^    int t;$/;"	m	struct:edge	file:
+transform	tex/algorithm.tex	/^\\section{transform}$/;"	s
+v	1expr.cpp	/^	int v;$/;"	m	struct:node	file:
+v	5bus.cpp	/^vector<array<int, 2>> v;$/;"	v
+v	6transform.cpp	/^} *v[maxN], e[maxM];$/;"	v	typeref:struct:edge
+v	richard/expr/e.cpp	/^	    int v;$/;"	m	struct:node	file:
+v	ritchie/77.cpp	/^    int v;$/;"	m	struct:node	file:
+x	5bus.cpp	/^int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];$/;"	v
+y	1expr.cpp	/^	int y;$/;"	m	struct:node	file:
+y	5bus.cpp	/^int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];$/;"	v
+y	richard/expr/e.cpp	/^	        int y;$/;"	m	struct:node	file:
+y	ritchie/77.cpp	/^    int y;$/;"	m	struct:node	file:
