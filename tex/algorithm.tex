@@ -102,6 +102,68 @@ ShuwenHe\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{binary tree}
+\section{preorder traversal}
+ [NOIP2001 普及组] 求先序排列
+
+ 题目描述
+
+给出一棵二叉树的中序与后序排列。求出它的先序排列。（约定树结点用不同的大写字母表示，且二叉树的节点个数 $ \le 8$）。
+
+ 输入格式
+
+共两行，均为大写字母组成的字符串，表示一棵二叉树的中序与后序排列。
+
+ 输出格式
+
+共一行一个字符串，表示一棵二叉树的先序。
+
+ 样例 1
+
+ 样例输入 1
+
+```
+BADC
+BDCA
+```
+
+ 样例输出 1
+
+```
+ABCD
+```
+
+ 提示
+
+**【题目来源】**
+
+NOIP 2001 普及组第三题
+\begin{lstlisting}[language=C++,breaklines=true]
+include <iostream>
+include <string>
+
+using namespace std;
+
+void preOrder(const string& inorder, const string& postorder) {
+    if (inorder.empty() || postorder.empty()) {
+        return;
+    }
+    char root = postorder.back();
+    cout << root;
+    int rootIndex = inorder.find(root);
+    preOrder(inorder.substr(0, rootIndex), postorder.substr(0, rootIndex));
+    preOrder(inorder.substr(rootIndex + 1), postorder.substr(rootIndex, postorder.length() - rootIndex - 1));
+}
+
+int main() {
+    string inorder, postorder;
+    cin >> inorder >> postorder;
+    preOrder(inorder, postorder);
+    cout << endl;
+    return 0;
+}
+\end{lstlisting}
+
 \chapter{enumeration}
 \section{unhappy}
 不高兴的津津\\
@@ -125,7 +187,7 @@ NOIP2004普及组第1题\\
 3\\
  提示\\
 \begin{lstlisting}[language=C++,breaklines=true]
-#include <iostream>
+include <iostream>
 using namespace std;
 
 int main() {
@@ -156,9 +218,9 @@ int main() {
 \section{algorithm}
 \subsection{sort}
 \begin{lstlisting}[language=c++]
-#include <iostream>
-#include <vector>
-#include <algorithm>
+include <iostream>
+include <vector>
+include <algorithm>
 
 using namespace std;
 
