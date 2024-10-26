@@ -2388,6 +2388,48 @@ $6 = 4 + 2 = 2^2 + 2^1$ 是一个优秀的拆分。注意， 6 = 2 + 2 + 2 不�
 3 & $2^1,2^2,...,2^n$ & $power = 1\ll i$& \\
 \hline
 \end{tabular}
+\begin{lstlisting}[language=C++,breaklines=true]
+#include <iostream>
+#include <cmath>
+
+const int maxn = 100005;
+
+int main() {
+    int n;
+    std::cin >> n;
+
+    if (n % 2!= 0) {
+        std::cout << "-1" << std::endl;
+        return 0;
+    }
+
+    long long now = 1;
+    bool a[105] = {false};
+    int i = 0;
+    while (now * 2 <= n) {
+        now *= 2;
+        i++;
+    }
+
+    int i1 = i;
+    while (now > 1) {
+        if (n - now >= 0) {
+            a[i1] = true;
+            n -= now;
+        }
+        i1--;
+        now /= 2;
+    }
+
+    for (int j = i; j >= 1; --j) {
+        if (!a[j]) continue;
+        long long ans = std::pow(2, j);
+        std::cout << ans << " ";
+    }
+
+    return 0;
+}
+\end{lstlisting}
 
 \section{area}
 CSP-J2019江西 面积\\

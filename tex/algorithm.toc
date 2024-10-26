@@ -51,35 +51,35 @@
 \contentsline {section}{\numberline {5}noip2012-1}{70}{section.0.16.5}%
 \contentsline {section}{\numberline {6}pow}{71}{section.0.16.6}%
 \contentsline {section}{\numberline {7}power}{73}{section.0.16.7}%
-\contentsline {section}{\numberline {8}area}{74}{section.0.16.8}%
-\contentsline {section}{\numberline {9}char}{75}{section.0.16.9}%
-\contentsline {section}{\numberline {10}numberReverse}{76}{section.0.16.10}%
-\contentsline {section}{\numberline {11}buyPencil}{76}{section.0.16.11}%
-\contentsline {chapter}{\numberline {第十七章\hspace {.3em}}graph}{79}{chapter.0.17}%
-\contentsline {section}{\numberline {1}bipartite graph}{79}{section.0.17.1}%
-\contentsline {subsection}{\numberline {1.1}transform}{79}{subsection.0.17.1.1}%
-\contentsline {section}{\numberline {2}expr}{85}{section.0.17.2}%
-\contentsline {section}{\numberline {3}noip2002-1}{90}{section.0.17.3}%
-\contentsline {section}{\numberline {4}gcd}{91}{section.0.17.4}%
-\contentsline {section}{\numberline {5}bubbleSort}{91}{section.0.17.5}%
-\contentsline {section}{\numberline {6}decode}{92}{section.0.17.6}%
-\contentsline {section}{\numberline {7}candy}{95}{section.0.17.7}%
-\contentsline {section}{\numberline {8}后缀自动机}{98}{section.0.17.8}%
-\contentsline {section}{\numberline {9}dag}{98}{section.0.17.9}%
-\contentsline {section}{\numberline {10}最大流问题}{98}{section.0.17.10}%
-\contentsline {section}{\numberline {11}最短路径（Dijkstra 算法）}{100}{section.0.17.11}%
-\contentsline {section}{\numberline {12}动态规划（01 背包问题）}{102}{section.0.17.12}%
-\contentsline {section}{\numberline {13}binarySearch}{103}{section.0.17.13}%
-\contentsline {section}{\numberline {14}排序问题}{104}{section.0.17.14}%
-\contentsline {section}{\numberline {15}dfs深度优先搜索}{105}{section.0.17.15}%
-\contentsline {section}{\numberline {16}BFS广度优先搜索}{106}{section.0.17.16}%
-\contentsline {section}{\numberline {17}bus}{106}{section.0.17.17}%
-\contentsline {section}{\numberline {18}live}{109}{section.0.17.18}%
-\contentsline {section}{\numberline {19}number}{111}{section.0.17.19}%
-\contentsline {section}{\numberline {20}expr}{113}{section.0.17.20}%
-\contentsline {section}{\numberline {21}point}{115}{section.0.17.21}%
-\contentsline {section}{\numberline {22}fruit}{118}{section.0.17.22}%
-\contentsline {section}{\numberline {23}sort}{121}{section.0.17.23}%
-\contentsline {section}{\numberline {24}solve}{124}{section.0.17.24}%
-\contentsline {section}{\numberline {25}network}{125}{section.0.17.25}%
-\contentsline {section}{\numberline {26}josephus}{127}{section.0.17.26}%
+\contentsline {section}{\numberline {8}area}{75}{section.0.16.8}%
+\contentsline {section}{\numberline {9}char}{76}{section.0.16.9}%
+\contentsline {section}{\numberline {10}numberReverse}{77}{section.0.16.10}%
+\contentsline {section}{\numberline {11}buyPencil}{77}{section.0.16.11}%
+\contentsline {chapter}{\numberline {第十七章\hspace {.3em}}graph}{80}{chapter.0.17}%
+\contentsline {section}{\numberline {1}bipartite graph}{80}{section.0.17.1}%
+\contentsline {subsection}{\numberline {1.1}transform}{80}{subsection.0.17.1.1}%
+\contentsline {section}{\numberline {2}expr}{86}{section.0.17.2}%
+\contentsline {section}{\numberline {3}noip2002-1}{91}{section.0.17.3}%
+\contentsline {section}{\numberline {4}gcd}{92}{section.0.17.4}%
+\contentsline {section}{\numberline {5}bubbleSort}{92}{section.0.17.5}%
+\contentsline {section}{\numberline {6}decode}{93}{section.0.17.6}%
+\contentsline {section}{\numberline {7}candy}{96}{section.0.17.7}%
+\contentsline {section}{\numberline {8}后缀自动机}{99}{section.0.17.8}%
+\contentsline {section}{\numberline {9}dag}{99}{section.0.17.9}%
+\contentsline {section}{\numberline {10}最大流问题}{99}{section.0.17.10}%
+\contentsline {section}{\numberline {11}最短路径（Dijkstra 算法）}{101}{section.0.17.11}%
+\contentsline {section}{\numberline {12}动态规划（01 背包问题）}{103}{section.0.17.12}%
+\contentsline {section}{\numberline {13}binarySearch}{104}{section.0.17.13}%
+\contentsline {section}{\numberline {14}排序问题}{105}{section.0.17.14}%
+\contentsline {section}{\numberline {15}dfs深度优先搜索}{106}{section.0.17.15}%
+\contentsline {section}{\numberline {16}BFS广度优先搜索}{107}{section.0.17.16}%
+\contentsline {section}{\numberline {17}bus}{107}{section.0.17.17}%
+\contentsline {section}{\numberline {18}live}{110}{section.0.17.18}%
+\contentsline {section}{\numberline {19}number}{112}{section.0.17.19}%
+\contentsline {section}{\numberline {20}expr}{114}{section.0.17.20}%
+\contentsline {section}{\numberline {21}point}{116}{section.0.17.21}%
+\contentsline {section}{\numberline {22}fruit}{119}{section.0.17.22}%
+\contentsline {section}{\numberline {23}sort}{122}{section.0.17.23}%
+\contentsline {section}{\numberline {24}solve}{125}{section.0.17.24}%
+\contentsline {section}{\numberline {25}network}{126}{section.0.17.25}%
+\contentsline {section}{\numberline {26}josephus}{128}{section.0.17.26}%
