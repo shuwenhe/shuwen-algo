@@ -11,6 +11,6 @@ int main(){
 			pick = min(pick,day);
 		n -= (n - 1)/3 + 1;
 	}
-	cout<<day<<" "pick<<endl;
+	cout<<day<<" "<<pick<<endl;
 	return 0;
 }
