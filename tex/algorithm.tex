@@ -192,23 +192,6 @@ int main() {
 }
 \end{lstlisting}
 
-\section{sort}
-\begin{lstlisting}[language=c++]
-include <iostream>
-include <vector>
-include <algorithm>
-
-using namespace std;
-
-int main(){
-    std::vector<int> vec = {5, 2, 9, 1, 5, 6};
-    std::sort(vec.begin(),vec.end(),std::greater<int>());
-    for(int num:vec){
-	    std::cout<<num<<"";
-    }
-}
-\end{lstlisting}
-
 \section{NOIP2015普及组T2}
 [NOIP2015 普及组] 扫雷游戏\\
 题目背景\\
@@ -494,6 +477,47 @@ int main() {
 }
 \end{lstlisting}
 
+\chapter{dfs}
+\section{dfs深度优先搜索}
+问题描述：给出一个图或者一个状态空间，要求找到满足特定条件的路径或状态。\\
+例如：在一个迷宫中找到从起点到终点的路径。
+\begin{lstlisting}[language=C++]
+include <iostream>
+include <vector>
+
+const int MAXN = 10;
+int maze[MAXN][MAXN];
+bool visited[MAXN][MAXN];
+int n, m;
+
+void dfs(int x, int y) {
+    if (x < 0 || x >= n || y < 0 || y >= m || maze[x][y] == 1 || visited[x][y]) return;
+    visited[x][y] = true;
+    if (maze[x][y] == 2) {
+        // 找到终点
+        std::cout << "Found the end!" << std::endl;
+        return;
+    }
+    dfs(x + 1, y);
+    dfs(x - 1, y);
+    dfs(x, y + 1);
+    dfs(x, y - 1);
+}
+
+int main() {
+    std::cin >> n >> m;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            std::cin >> maze[i][j];
+        }
+    }
+    int startX, startY;
+    std::cin >> startX >> startY;
+    dfs(startX, startY);
+    return 0;
+}
+\end{lstlisting}
+
 \section{dfs}
 [USACO10OCT] Lake Counting S\\
 Due to recent rains, water has pooled in various places in Farmer John's field, which is represented by a rectangle of N x M (1 <= N <= 100; 1 <= M <= 100) squares. Each square contains either water ('W') or dry land ('.'). Farmer John would like to figure out how many ponds have formed in his field. A pond is a connected set of squares with water in them, where a square is considered adjacent to all eight of its neighbors. Given a diagram of Farmer John's field, determine how many ponds he has.\\
@@ -739,6 +763,106 @@ int main() {
 
 \end{lstlisting}
 
+\chapter{bfs}
+\section{bus}
+IOI 2002 Bus Terminals\\
+PROBLEM\\
+Yong-In city plans to build a bus network with N bus stops. Each bus stop is at a street corner. Yong-In is a modern city, so its map is a grid of square blocks of equal size. Two of these bus stops are to be selected as hubs $H_1$ and $H_2$. The hubs will be connected to each other by an a direct express bus line and each of the remaining N − 2 bus stops will be connected directly to either $H_1$ or $H_2$  (but not to both), but not to any other bus stop.\\
+The distance between any two bus stops is the length of the shortest possible route following the streets. That is, if a bus stop is represented as (x, y) with x-coordinate x and y-coordinate y, then the distance between two bus stops ($x_1$, $y_1$) and ($x_2$, $y_2$) is $|x_1-x_2|+|y_1-y_2|$. If bus stops A and B are connected to the same hub $H_1$, then the length of the route from A to B is the sum of the distances from A to $H_1$ and from $H_1$ to B. If bus stops A and B are connected to different hubs, e.g., A to $H_1$ and B to $H_2$, then the length of the route from A to B is the sum of the distances from A to $H_1$, from $H_1$ to $H_2$, and from $H_2$ to B.\\
+The planning authority of Yong-In city would like to make sure that every citizen can reach every point within the city as quickly as possible. Therefore, city planners want to choose two bus stops to be hubs in such a way that in the resulting bus network the length of the longest route between any two bus stops is as short as possible. \\
+Your task is to write a program to compute the minimum length of any longest bus route between any two bus stops in Yong-In for all possible choices of two hubs.One choice P of two hubs and assignments of bus stops to those hubs is better than another choice Q if the length of the longest bus route is shorter in P than in Q.  Your task is to write a program to compute the length of this longest route for the best choice P. \\
+INPUT\\
+Your program is to read from standard input. The first line contains one positive integer N, $2\leq N\leq 500$, the number of bus stops. Each of the remaining N lines contains the x-coordinate followed by the y-coordinate of a bus stop. The x- and y-coordinates are positive integers$\leq$5000.  No two bus stops are at the same location.\\
+OUTPUT\\
+Your program is to write to standard output. The output contains one line with a single positive integer, the minimum length of the longest bus route for the input.\\
+EXAMPLE INPUTS AND OUTPUTS\\
+Example 1:\\
+SAMPLE INPUT:\\
+6\\
+1 7\\
+16 6\\
+12 4\\
+4 4\\
+1 1\\
+11 1\\
+SAMPLE OUTPUT:\\
+20\\
+The following figures show the bus networks for the inputs given above. If in Example 1 bus stops 3 and 4 are selected as hubs then the longest route is either between bus stops 2 and 5 or between bus stops 2 and 1. There is no better choice for the hubs, and the answer is 20. \\
+\includegraphics[width=0.5\textwidth]{bus.png}\\
+SCORING\\
+If your program outputs the correct answer for a test case within the time limit, then you get full points for that test case, and otherwise you get 0 points for that case.
+\begin{lstlisting}[language=c++,breaklines=true] 
+include <bits/stdc++.h>
+using namespace std;
+
+const int mxN=500;
+int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];
+array<int, 2> a[mxN], mx[mxN+2][3], c[mxN][mxN];
+vector<array<int, 2>> v;
+bool b[mxN];
+
+int main() {
+    ifstream fin("bus.in");
+    ofstream fout("bus.out");
+
+    fin >> n;
+    for(int i=0; i<n; ++i)
+        fin >> x[i] >> y[i];
+    for(int i=0; i<n; ++i) {
+        for(int j=0; j<n; ++j)
+            c[i][j]={abs(x[i]-x[j])+abs(y[i]-y[j]), j};
+        sort(c[i], c[i]+n);
+    }
+    for(int i=0; i<n; ++i) {
+        for(int j=0, k=0; j<n; j=k)
+            for(; k<n&&c[i][k][0]==c[i][j][0]; ++k)
+                d[c[i][k][1]]=j;
+        for(int j=i+1; j<n; ++j) {
+            iota(e, e+n, 0);
+            for(int k=0; k<n; ++k)
+		a[e[d[c[j][k][1]]]++]={abs(x[i]-x[c[j][k][1]])+abs(y[i]-y[c[j][k][1]]), c[j][k][0]};
+            for(int l=0; l<3; ++l) {
+                array<int, 2> c{};
+                for(int k=n-1; ~k; --k) {
+                    if(!b[k]&&a[k][1]>c[1]) {
+                        c=a[k];
+                        b[k]=1;
+                    }
+                }
+            }
+            v.push_back({});
+            for(int k=0; k<n; ++k)
+                if(b[k])
+                    v.push_back(a[k]);
+            memset(b, 0, n);
+            memset(mx[v.size()], 0, 24);
+            for(int k=v.size()-1; ~k; --k) {
+                array<int, 2> c{v[k][1], k};
+                memcpy(mx[k], mx[k+1], 24);
+                for(int l=0; l<3; ++l)
+                    if(mx[k][l]<c)
+                        swap(mx[k][l], c);
+            }
+            for(int k=v.size()-1; ~k; --k)
+                for(nxt[k]=k+1; nxt[k]<v.size()&&v[nxt[k]][1]<v[k][1]; nxt[k]=nxt[nxt[k]]);
+            for(int k=0, dab=abs(x[i]-x[j])+abs(y[i]-y[j]); k<v.size(); ++k) {
+                for(int l=k+1; l<v.size(); l=nxt[l]) {
+                    array<int, 2> b0=mx[k+1][0], b1=mx[k+1][1];
+                    if(b0[1]==l)
+                        swap(b0, b1);
+                    if(b1[1]==l)
+                        b1=mx[k+1][2];
+                    ans=min(max({v[k][0]+v[l][0], b0[0]+b1[0], v[l][0]+dab+b0[0]}), ans);
+                }
+            }
+            v.clear();
+        }
+    }
+    fout << ans;
+}
+\end{lstlisting}
+
+\chapter{binary search}
 \section{binarySearch}
  进击的奶牛
  题目描述
@@ -990,6 +1114,162 @@ int main() {
 
 \end{lstlisting}
 
+\section{decode}
+decode-csp-j-2022-2\\
+【题目描述】\\
+给定一个正整数$k$，有$k$次询问，每次给定三个正整数$n_i, e_i, d_i$求两个正整数$p_i
+, q_i$，使$n_i = p_i \times q_i, e_i \times d_i = (p_i − 1)(q_i − 1) + 1$。\\
+【输入格式】\\
+从文件decode.in中读入数据。\\
+第一行一个正整数$k$，表示有$k$次询问。\\
+接下来$k$行，第$i$行三个正整数 $n_i, d_i, e_i$。\\
+【输出格式】\\
+输出到文件 decode.out 中。\\
+输出$k$行，每行两个正整数$pi,qi$\\表示答案。\\
+为使输出统一，你应当保证 $pi \leq qi$。\\
+如果无解，请输出 NO。\\
+【样例 1 输入】\\
+\begin{tabular}{|c|c|c|}
+  \hline
+  1 & 10 \\
+  2 & 770 77 5 \\
+  3 & 633 1 211 \\
+  4 & 545 1 499 \\
+  5 & 683 3 227\\
+  6 & 858 3 257\\
+  7 & 723 37 13\\
+  8 & 572 26 11\\
+  9 & 867 17 17\\
+  10 & 829 3 263\\
+  11 & 528 4 109\\
+  \hline
+\end{tabular}\\
+【样例 1 输出】\\
+\begin{tabular}{|c|c|c|}
+  \hline
+  1 & 2 385 \\
+  2 & NO \\
+  3 & NO \\
+  4 & NO \\
+  5 & 11 78\\
+  6 & 3 241\\
+  7 & 2 286\\
+  8 & NO\\
+  9 & NO\\
+  10 & 6 88\\
+  \hline
+\end{tabular}\\
+【样例 2】\\
+见选手目录下的 decode/decode2.in 与 decode/decode2.ans。\\
+【样例 3】\\
+见选手目录下的 decode/decode3.in 与 decode/decode3.ans。\\
+【样例 4】\\
+见选手目录下的 decode/decode4.in 与 decode/decode4.ans。\\
+【数据范围】\\
+以下记 $m = n − e \times d + 2$。\\
+保证对于 $100\%$ 的数据，$1 \leq k \leq 10^5$，对于任意的 $1 \leq i \leq k,1 \leq n_i \leq 10^{18}
+, 1 \leq ei \times di \leq 10^{18}, 1 \leq m \leq 10^9$。\\
+\begin{tabular}{|c|c|c|c|c|}
+  \hline
+  测试点编号 & k $\leq$ & n $\leq$ & m $\leq$ & 特殊性质 \\
+  \hline
+  1 & & & & 保证有解\\
+  \cline{1-1}
+  \cline{5-1}
+  2 & & $10^3$ & $10^3$ & 无\\
+  \cline{1-1}
+  \cline{3-1}
+  \cline{4-1}
+  \cline{5-1}
+  3 & & & & 保证有解\\
+  \cline{1-1}
+  \cline{5-1}
+  4 &  $10^3$ & $10^9$ & $6\times 10^4$ & 无\\
+  \cline{1-1}
+  \cline{4-1}
+  \cline{5-1}
+  5 & & & & 保证有解\\
+  \cline{1-1}
+  \cline{5-1}
+  6 & & & & 无\\
+  \cline{1-1}
+  \cline{2-1}
+  \cline{3-1}
+  \cline{5-1}
+  7 & & & & 保证若有解则 p = q\\
+  \cline{1-1}
+  \cline{5-1}
+  8 & & & $10^{9}$ & 保证有解\\
+  \cline{1-1}
+   \cline{5-1}
+  9 & $10^5$ & $10^{18}$ &  & \\
+  \cline{1-1}
+  10 & & & & 无\\
+  \hline
+\end{tabular}\\
+解:\\
+\begin{tabular}{|c|c|c|}
+\hline
+1 & input $n_i, e_i, d_i$ & 770 77 5\\
+\hline
+2 & output $pi,qi$ & 2 385\\
+\hline
+3 & $n_i = p_i \times q_i$ & $770 = 2\times 385$\\
+\hline
+4 & $e_i \times d_i = (p_i − 1)(q_i − 1) + 1$ & $77\times 5 = (2-1)\times(385 - 1) +1$\\
+\hline
+\end{tabular}\\
+$\because
+e_i \times d_i = (p_i − 1)(q_i − 1) + 1\\
+e_id_i = p_iq_i - (p_i + q_i) + 2$\\
+$\therefore
+p_i + q_i = p_iq_i - e_id_i + 2$\\
+令$s = p_i + q_i$\\
+则有$s = p_iq_i - e_id_i + 2$\\
+$s=n-d*e+2$
+\begin{lstlisting}[language=C++]
+include <iostream>
+include <fstream>
+
+using namespace std;
+
+int main(){
+	ifstream fin("decode.in");
+	ofstream fout("decode.out");
+	int k;
+	fin>>k;
+	for(int i = 0;i < k;i++){
+		long long n,d,e;
+		fin>>n>>d>>e;
+		long long s = n - d * e + 2;
+		long long left = 1,right = s - 1;
+		long long p = -1, q = -1;
+
+		while(left <= right){
+			long long mid  = left + (right - left) / 2;
+			if(mid * (s - mid) == n){
+				p = mid;
+				q = s - mid;	
+				break;
+			}else if(mid*(s-mid)<n){
+				left = mid + 1;
+			}else{
+				right = mid - 1;
+			}
+		}
+		if(p != -1 && q != -1 && p <= q){
+			fout<<p<<" "<<q<<endl;
+		}else{
+			fout<<"NO"<<endl;
+		}
+	}
+	fin.close();
+	fout.close();
+	return 0;
+}
+\end{lstlisting}
+
+\chapter{prime}
 \section{prime}
  [NOIP2012 普及组] 质因数分解
  题目描述
@@ -1142,6 +1422,7 @@ int main() {
 }
 \end{lstlisting}
 
+\chapter{greeedy}
 \section{greedy}
  [USACO1.3] 混合牛奶 Mixing Milk
  题目描述
@@ -1276,6 +1557,24 @@ int main() {
     cout << count << endl;
     
     return 0;
+}
+\end{lstlisting}
+
+\chapter{sort}
+\section{sort}
+\begin{lstlisting}[language=c++]
+include <iostream>
+include <vector>
+include <algorithm>
+
+using namespace std;
+
+int main(){
+    std::vector<int> vec = {5, 2, 9, 1, 5, 6};
+    std::sort(vec.begin(),vec.end(),std::greater<int>());
+    for(int num:vec){
+	    std::cout<<num<<"";
+    }
 }
 \end{lstlisting}
 
@@ -1805,6 +2104,36 @@ int main(){
 }
 \end{lstlisting}
 
+\chapter{mathematics}
+\section{gcd}
+Greatest Common Divisor最大公约数\\
+辗转相除法（欧几里得算法）\\
+原理：\\
+两个整数的最大公约数等于其中较小的数和两数相除余数的最大公约数。\\
+不断用较大数除以较小数取余数，直到余数为 0，此时较小数就是最大公约数。\\
+代码模板：
+\begin{lstlisting}[language=C++]
+include <iostream>
+using namespace std;
+
+int gcd(int a,int b){
+	int temp;
+	while(b != 0){
+		temp = a % b;
+		a = b;
+		b = temp;
+	}
+	return a;
+}
+
+int main(){
+	cout<<"Please input two numbers:"<<endl;
+	int a,b;
+	cin>>a>>b;
+	cout<<gcd(a,b)<<endl;
+}
+\end{lstlisting}
+
 \section{pow}
 pow-csp-j-2022-1\\
 【题目描述】\\
@@ -1917,8 +2246,8 @@ $6 = 4 + 2 = 2^2 + 2^1$ 是一个优秀的拆分。注意， 6 = 2 + 2 + 2 不�
 \hline
 \end{tabular}
 \begin{lstlisting}[language=C++,breaklines=true]
-#include <iostream>
-#include <cmath>
+include <iostream>
+include <cmath>
 
 const int maxn = 100005;
 
@@ -2090,6 +2419,7 @@ P 老师需要购买至少 $57$ 支铅笔。\\
 
 \end{lstlisting}
 
+\chapter{bipartite graph}
 \section{transform}
 NOI2009-1 transform变换序列\\
 【问题描述】\\    
@@ -2293,6 +2623,7 @@ int main() {
 }
 \end{lstlisting}
 
+\chapter{stack}
 \section{expr}
 expr-csp-j-2022-3\\
 【题目描述】\\
@@ -2500,35 +2831,6 @@ int main(){
 }
 \end{lstlisting}
 
-\section{gcd}
-Greatest Common Divisor最大公约数\\
-辗转相除法（欧几里得算法）\\
-原理：\\
-两个整数的最大公约数等于其中较小的数和两数相除余数的最大公约数。\\
-不断用较大数除以较小数取余数，直到余数为 0，此时较小数就是最大公约数。\\
-代码模板：
-\begin{lstlisting}[language=C++]
-include <iostream>
-using namespace std;
-
-int gcd(int a,int b){
-	int temp;
-	while(b != 0){
-		temp = a % b;
-		a = b;
-		b = temp;
-	}
-	return a;
-}
-
-int main(){
-	cout<<"Please input two numbers:"<<endl;
-	int a,b;
-	cin>>a>>b;
-	cout<<gcd(a,b)<<endl;
-}
-\end{lstlisting}
-
 \section{bubbleSort}
 \begin{lstlisting}[language=C++]
 include <iostream>
@@ -2560,161 +2862,6 @@ int main(){
 	printArr();
 	bubbleSort(arr);
 	printArr();
-}
-\end{lstlisting}
-
-\section{decode}
-decode-csp-j-2022-2\\
-【题目描述】\\
-给定一个正整数$k$，有$k$次询问，每次给定三个正整数$n_i, e_i, d_i$求两个正整数$p_i
-, q_i$，使$n_i = p_i \times q_i, e_i \times d_i = (p_i − 1)(q_i − 1) + 1$。\\
-【输入格式】\\
-从文件decode.in中读入数据。\\
-第一行一个正整数$k$，表示有$k$次询问。\\
-接下来$k$行，第$i$行三个正整数 $n_i, d_i, e_i$。\\
-【输出格式】\\
-输出到文件 decode.out 中。\\
-输出$k$行，每行两个正整数$pi,qi$\\表示答案。\\
-为使输出统一，你应当保证 $pi \leq qi$。\\
-如果无解，请输出 NO。\\
-【样例 1 输入】\\
-\begin{tabular}{|c|c|c|}
-  \hline
-  1 & 10 \\
-  2 & 770 77 5 \\
-  3 & 633 1 211 \\
-  4 & 545 1 499 \\
-  5 & 683 3 227\\
-  6 & 858 3 257\\
-  7 & 723 37 13\\
-  8 & 572 26 11\\
-  9 & 867 17 17\\
-  10 & 829 3 263\\
-  11 & 528 4 109\\
-  \hline
-\end{tabular}\\
-【样例 1 输出】\\
-\begin{tabular}{|c|c|c|}
-  \hline
-  1 & 2 385 \\
-  2 & NO \\
-  3 & NO \\
-  4 & NO \\
-  5 & 11 78\\
-  6 & 3 241\\
-  7 & 2 286\\
-  8 & NO\\
-  9 & NO\\
-  10 & 6 88\\
-  \hline
-\end{tabular}\\
-【样例 2】\\
-见选手目录下的 decode/decode2.in 与 decode/decode2.ans。\\
-【样例 3】\\
-见选手目录下的 decode/decode3.in 与 decode/decode3.ans。\\
-【样例 4】\\
-见选手目录下的 decode/decode4.in 与 decode/decode4.ans。\\
-【数据范围】\\
-以下记 $m = n − e \times d + 2$。\\
-保证对于 $100\%$ 的数据，$1 \leq k \leq 10^5$，对于任意的 $1 \leq i \leq k,1 \leq n_i \leq 10^{18}
-, 1 \leq ei \times di \leq 10^{18}, 1 \leq m \leq 10^9$。\\
-\begin{tabular}{|c|c|c|c|c|}
-  \hline
-  测试点编号 & k $\leq$ & n $\leq$ & m $\leq$ & 特殊性质 \\
-  \hline
-  1 & & & & 保证有解\\
-  \cline{1-1}
-  \cline{5-1}
-  2 & & $10^3$ & $10^3$ & 无\\
-  \cline{1-1}
-  \cline{3-1}
-  \cline{4-1}
-  \cline{5-1}
-  3 & & & & 保证有解\\
-  \cline{1-1}
-  \cline{5-1}
-  4 &  $10^3$ & $10^9$ & $6\times 10^4$ & 无\\
-  \cline{1-1}
-  \cline{4-1}
-  \cline{5-1}
-  5 & & & & 保证有解\\
-  \cline{1-1}
-  \cline{5-1}
-  6 & & & & 无\\
-  \cline{1-1}
-  \cline{2-1}
-  \cline{3-1}
-  \cline{5-1}
-  7 & & & & 保证若有解则 p = q\\
-  \cline{1-1}
-  \cline{5-1}
-  8 & & & $10^{9}$ & 保证有解\\
-  \cline{1-1}
-   \cline{5-1}
-  9 & $10^5$ & $10^{18}$ &  & \\
-  \cline{1-1}
-  10 & & & & 无\\
-  \hline
-\end{tabular}\\
-解:\\
-\begin{tabular}{|c|c|c|}
-\hline
-1 & input $n_i, e_i, d_i$ & 770 77 5\\
-\hline
-2 & output $pi,qi$ & 2 385\\
-\hline
-3 & $n_i = p_i \times q_i$ & $770 = 2\times 385$\\
-\hline
-4 & $e_i \times d_i = (p_i − 1)(q_i − 1) + 1$ & $77\times 5 = (2-1)\times(385 - 1) +1$\\
-\hline
-\end{tabular}\\
-$\because
-e_i \times d_i = (p_i − 1)(q_i − 1) + 1\\
-e_id_i = p_iq_i - (p_i + q_i) + 2$\\
-$\therefore
-p_i + q_i = p_iq_i - e_id_i + 2$\\
-令$s = p_i + q_i$\\
-则有$s = p_iq_i - e_id_i + 2$\\
-$s=n-d*e+2$
-\begin{lstlisting}[language=C++]
-include <iostream>
-include <fstream>
-
-using namespace std;
-
-int main(){
-	ifstream fin("decode.in");
-	ofstream fout("decode.out");
-	int k;
-	fin>>k;
-	for(int i = 0;i < k;i++){
-		long long n,d,e;
-		fin>>n>>d>>e;
-		long long s = n - d * e + 2;
-		long long left = 1,right = s - 1;
-		long long p = -1, q = -1;
-
-		while(left <= right){
-			long long mid  = left + (right - left) / 2;
-			if(mid * (s - mid) == n){
-				p = mid;
-				q = s - mid;	
-				break;
-			}else if(mid*(s-mid)<n){
-				left = mid + 1;
-			}else{
-				right = mid - 1;
-			}
-		}
-		if(p != -1 && q != -1 && p <= q){
-			fout<<p<<" "<<q<<endl;
-		}else{
-			fout<<"NO"<<endl;
-		}
-	}
-	fin.close();
-	fout.close();
-	return 0;
 }
 \end{lstlisting}
 
@@ -3074,146 +3221,6 @@ int main() {
         std::cout << num << " ";
     }
     return 0;
-}
-\end{lstlisting}
-
-\section{dfs深度优先搜索}
-问题描述：给出一个图或者一个状态空间，要求找到满足特定条件的路径或状态。\\
-例如：在一个迷宫中找到从起点到终点的路径。
-\begin{lstlisting}[language=C++]
-include <iostream>
-include <vector>
-
-const int MAXN = 10;
-int maze[MAXN][MAXN];
-bool visited[MAXN][MAXN];
-int n, m;
-
-void dfs(int x, int y) {
-    if (x < 0 || x >= n || y < 0 || y >= m || maze[x][y] == 1 || visited[x][y]) return;
-    visited[x][y] = true;
-    if (maze[x][y] == 2) {
-        // 找到终点
-        std::cout << "Found the end!" << std::endl;
-        return;
-    }
-    dfs(x + 1, y);
-    dfs(x - 1, y);
-    dfs(x, y + 1);
-    dfs(x, y - 1);
-}
-
-int main() {
-    std::cin >> n >> m;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            std::cin >> maze[i][j];
-        }
-    }
-    int startX, startY;
-    std::cin >> startX >> startY;
-    dfs(startX, startY);
-    return 0;
-}
-\end{lstlisting}
-
-\section{BFS广度优先搜索}
-
-\section{bus}
-IOI 2002 Bus Terminals\\
-PROBLEM\\
-Yong-In city plans to build a bus network with N bus stops. Each bus stop is at a street corner. Yong-In is a modern city, so its map is a grid of square blocks of equal size. Two of these bus stops are to be selected as hubs $H_1$ and $H_2$. The hubs will be connected to each other by an a direct express bus line and each of the remaining N − 2 bus stops will be connected directly to either $H_1$ or $H_2$  (but not to both), but not to any other bus stop.\\
-The distance between any two bus stops is the length of the shortest possible route following the streets. That is, if a bus stop is represented as (x, y) with x-coordinate x and y-coordinate y, then the distance between two bus stops ($x_1$, $y_1$) and ($x_2$, $y_2$) is $|x_1-x_2|+|y_1-y_2|$. If bus stops A and B are connected to the same hub $H_1$, then the length of the route from A to B is the sum of the distances from A to $H_1$ and from $H_1$ to B. If bus stops A and B are connected to different hubs, e.g., A to $H_1$ and B to $H_2$, then the length of the route from A to B is the sum of the distances from A to $H_1$, from $H_1$ to $H_2$, and from $H_2$ to B.\\
-The planning authority of Yong-In city would like to make sure that every citizen can reach every point within the city as quickly as possible. Therefore, city planners want to choose two bus stops to be hubs in such a way that in the resulting bus network the length of the longest route between any two bus stops is as short as possible. \\
-Your task is to write a program to compute the minimum length of any longest bus route between any two bus stops in Yong-In for all possible choices of two hubs.One choice P of two hubs and assignments of bus stops to those hubs is better than another choice Q if the length of the longest bus route is shorter in P than in Q.  Your task is to write a program to compute the length of this longest route for the best choice P. \\
-INPUT\\
-Your program is to read from standard input. The first line contains one positive integer N, $2\leq N\leq 500$, the number of bus stops. Each of the remaining N lines contains the x-coordinate followed by the y-coordinate of a bus stop. The x- and y-coordinates are positive integers$\leq$5000.  No two bus stops are at the same location.\\
-OUTPUT\\
-Your program is to write to standard output. The output contains one line with a single positive integer, the minimum length of the longest bus route for the input.\\
-EXAMPLE INPUTS AND OUTPUTS\\
-Example 1:\\
-SAMPLE INPUT:\\
-6\\
-1 7\\
-16 6\\
-12 4\\
-4 4\\
-1 1\\
-11 1\\
-SAMPLE OUTPUT:\\
-20\\
-The following figures show the bus networks for the inputs given above. If in Example 1 bus stops 3 and 4 are selected as hubs then the longest route is either between bus stops 2 and 5 or between bus stops 2 and 1. There is no better choice for the hubs, and the answer is 20. \\
-\includegraphics[width=0.5\textwidth]{bus.png}\\
-SCORING\\
-If your program outputs the correct answer for a test case within the time limit, then you get full points for that test case, and otherwise you get 0 points for that case.
-\begin{lstlisting}[language=c++,breaklines=true] 
-include <bits/stdc++.h>
-using namespace std;
-
-const int mxN=500;
-int n, x[mxN], y[mxN], ans=1e9, nxt[mxN+1], d[mxN], e[mxN];
-array<int, 2> a[mxN], mx[mxN+2][3], c[mxN][mxN];
-vector<array<int, 2>> v;
-bool b[mxN];
-
-int main() {
-    ifstream fin("bus.in");
-    ofstream fout("bus.out");
-
-    fin >> n;
-    for(int i=0; i<n; ++i)
-        fin >> x[i] >> y[i];
-    for(int i=0; i<n; ++i) {
-        for(int j=0; j<n; ++j)
-            c[i][j]={abs(x[i]-x[j])+abs(y[i]-y[j]), j};
-        sort(c[i], c[i]+n);
-    }
-    for(int i=0; i<n; ++i) {
-        for(int j=0, k=0; j<n; j=k)
-            for(; k<n&&c[i][k][0]==c[i][j][0]; ++k)
-                d[c[i][k][1]]=j;
-        for(int j=i+1; j<n; ++j) {
-            iota(e, e+n, 0);
-            for(int k=0; k<n; ++k)
-		a[e[d[c[j][k][1]]]++]={abs(x[i]-x[c[j][k][1]])+abs(y[i]-y[c[j][k][1]]), c[j][k][0]};
-            for(int l=0; l<3; ++l) {
-                array<int, 2> c{};
-                for(int k=n-1; ~k; --k) {
-                    if(!b[k]&&a[k][1]>c[1]) {
-                        c=a[k];
-                        b[k]=1;
-                    }
-                }
-            }
-            v.push_back({});
-            for(int k=0; k<n; ++k)
-                if(b[k])
-                    v.push_back(a[k]);
-            memset(b, 0, n);
-            memset(mx[v.size()], 0, 24);
-            for(int k=v.size()-1; ~k; --k) {
-                array<int, 2> c{v[k][1], k};
-                memcpy(mx[k], mx[k+1], 24);
-                for(int l=0; l<3; ++l)
-                    if(mx[k][l]<c)
-                        swap(mx[k][l], c);
-            }
-            for(int k=v.size()-1; ~k; --k)
-                for(nxt[k]=k+1; nxt[k]<v.size()&&v[nxt[k]][1]<v[k][1]; nxt[k]=nxt[nxt[k]]);
-            for(int k=0, dab=abs(x[i]-x[j])+abs(y[i]-y[j]); k<v.size(); ++k) {
-                for(int l=k+1; l<v.size(); l=nxt[l]) {
-                    array<int, 2> b0=mx[k+1][0], b1=mx[k+1][1];
-                    if(b0[1]==l)
-                        swap(b0, b1);
-                    if(b1[1]==l)
-                        b1=mx[k+1][2];
-                    ans=min(max({v[k][0]+v[l][0], b0[0]+b1[0], v[l][0]+dab+b0[0]}), ans);
-                }
-            }
-            v.clear();
-        }
-    }
-    fout << ans;
 }
 \end{lstlisting}
 
@@ -3944,8 +3951,75 @@ int main(){
 
 \chapter{dijkstra}
 \section{bus}
+ [CSP-J 2023] 旅游巴士
+ 题目描述
+小 Z 打算在国庆假期期间搭乘旅游巴士去一处他向往已久的景点旅游。
+
+旅游景点的地图共有 $n$ 处地点，在这些地点之间连有 $m$ 条道路。其中 $1$ 号地点为景区入口，$n$ 号地点为景区出口。我们把一天当中景区开门营业的时间记为 $0$ 时刻，则从 $0$ 时刻起，每间隔 $k$ 单位时间便有一辆旅游巴士到达景区入口，同时有一辆旅游巴士从景区出口驶离景区。
+
+所有道路均只能**单向通行**。对于每条道路，游客步行通过的用时均为恰好 $1$ 单位时间。
+
+小 Z 希望乘坐旅游巴士到达景区入口，并沿着自己选择的任意路径走到景区出口，再乘坐旅游巴士离开，这意味着他到达和离开景区的时间都必须是 **$k$ 的非负整数倍**。由于节假日客流众多，**小 Z 在旅游巴士离开景区前只想一直沿着景区道路移动，而不想在任何地点（包括景区入口和出口）或者道路上停留**。
+
+出发前，小 Z 忽然得知：景区采取了限制客流的方法，对于每条道路均设置了一个
+“开放时间”$a _ i$，游客只有**不早于 $a _ i$ 时刻**才能通过这条道路。
+
+请帮助小 Z 设计一个旅游方案，使得他乘坐旅游巴士离开景区的时间尽量地早。
+
+ 输入格式
+
+输入的第一行包含 3 个正整数 $n, m, k$，表示旅游景点的地点数、道路数，以及旅游巴士的发车间隔。
+
+输入的接下来 $m$ 行，每行包含 3 个非负整数 $u _ i, v _ i, a_ i$，表示第 $i$ 条道路从地点 $u _ i$ 出发，到达地点 $v _ i$，道路的“开放时间”为 $a _ i$。
+
+ 输出格式
+
+输出一行，仅包含一个整数，表示小 Z 最早乘坐旅游巴士离开景区的时刻。如果不存在符合要求的旅游方案，输出 `-1`。
+
+ 样例 1
+
+ 样例输入 1
+
+```
+5 5 3
+1 2 0
+2 5 1
+1 3 0
+3 4 3
+4 5 1
+```
+
+ 样例输出 1
+
+```
+6
+```
+
+ 提示
+
+**【样例 1 解释】**
+
+小 Z 可以在 $3$ 时刻到达景区入口，沿 $1 \to 3 \to 4 \to 5$ 的顺序走到景区出口，并在 $6$ 时刻离开。
+
+**【样例 2】**
+
+见附件中的 `bus/bus2.in` 与 `bus/bus2.ans`。
+
+**【数据范围】**
+
+对于所有测试数据有：$2 \leq n \leq 10 ^ 4$，$1 \leq m \leq 2 \times 10 ^ 4$，$1 \leq k \leq 100$，$1 \leq u _ i, v _ i \leq n$，$0 \leq a _ i \leq 10 ^ 6$。
+
+| 测试点编号 | $n \leq$ | $m \leq$ | $k \leq$ | 特殊性质 |
+|:-:|:-:|:-:|:-:|:-:|
+| $1 \sim 2$ | $10$ |$15$ | $100$ | $a _ i = 0$ |
+| $3 \sim 5$ | $10$ | $15$ | $100$ | 无 |
+| $6 \sim 7$ | $10 ^ 4$ | $2 \times 10 ^ 4$ | $1$ | $a _ i = 0$ |
+| $8 \sim 10$ | $10 ^ 4$ | $2 \times 10 ^ 4$ | $1$ | 无 |
+| $11 \sim 13$ | $10 ^ 4$ | $2 \times 10 ^ 4$ | $100$ | $a _ i = 0$ |
+| $14 \sim 15$ | $10 ^ 4$ | $2 \times 10 ^ 4$ | $100$ | $u _ i \leq v _ i$ |
+| $16 \sim 20$ | $10 ^ 4$ | $2 \times 10 ^ 4$ | $100$ | 无 |
 \begin{lstlisting}[language=c++,breaklines=true]
-#include<bits/stdc++.h>
+include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 const ll N=10010,M=105;
