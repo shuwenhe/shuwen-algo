@@ -1654,6 +1654,149 @@ NOIP 2009 普及组 第二题
     }
 \end{lstlisting}
 
+\section{sort}
+sort-csp-2021-2\\
+【题目描述】\\
+插入排序是一种非常常见且简单的排序算法。小$Z$是一名大一的新生，今天$H$老
+师刚刚在上课的时候讲了插入排序算法。\\
+假设比较两个元素的时间为$O(1)$，则插入排序可以以 $O(n^2)$ 的时间复杂度完成长
+度为$n$的数组的排序。不妨假设这$n$个数字分别存储在$a_1, a_2, \cdots, a_n$之中，则如下伪
+代码给出了插入排序算法的一种最简单的实现方式：\\
+这下面是 C/C++ 的示范代码
+\begin{lstlisting}[language=C++,breaklines=true]
+for(int i = 1; i <= n; i++){
+	for(int j = i; j >= 2; j--){
+		if(a[j] < a[j - 1]){
+			int t = a[j - 1];
+			a[j - 1] = a[j];
+			a[j] = t;
+		}
+	}
+}
+\end{lstlisting}
+为了帮助小$Z$更好的理解插入排序，小$Z$的老师$H$老师留下了这么一道家庭作业：\\
+$H$老师给了一个长度为$n$的数组$a$，数组下标从1开始，并且数组中的所有元素均
+为非负整数。小$Z$需要支持在数组$a$上的$Q$次操作，操作共两种，参数分别如下：\\
+$1\quad x\quad v$ : 这是第一种操作，会将$a$的第$x$个元素，也就是$a_x$的值，修改为$v$。保证
+$1 \leq x \leq n$, $1 \leq v \leq 10^9$。
+注意这种操作会改变数组的元素，修改得到的数组会被保留，也会影响后续的操作。\\
+$2\quad x$ : 这是第二种操作，假设$H$老师按照上面的伪代码对$a$数组进行排序，你需要
+告诉$H$老师原来$a$的第$x$个元素，也就是$a_x$，在排序后的新数组所处的位置。保证$1\leq x \leq n$。注意这种操作不会改变数组的元素，排序后的数组不会被保留，也不会影响后续的操作。\\
+$H$老师不喜欢过多的修改，所以他保证类型1的操作次数不超过5000。\\
+小$Z$没有学过计算机竞赛，因此小$Z$并不会做这道题。他找到了你来帮助他解决
+这个问题。\\
+【输入格式】\\
+从文件sort.in中读入数据。\\
+输入的第一行包含两个正整数 $n, q$，表示数组长度和操作次数。保证 $1 \leq n \leq
+8, 000, 1 \leq q \leq 2 \times 10^5$。\\
+输入的第二行包含$n$个空格分隔的非负整数，其中第$i$个非负整数表示$a_i$。保证
+$1 \leq a_i \leq 10^9$。\\
+接下来$q$行，每行$2 \sim 3$ 个正整数，表示一次操作，操作格式见题目描述。\\
+【输出格式】\\
+输出到文件sort.out中。\\
+对于每一次类型为 2 的询问，输出一行一个正整数表示答案。\\
+【样例 1 输入】\\
+\begin{tabular}{|c|}
+  \hline
+  3 4 \\
+  3 2 1 \\
+  2 3 \\
+  1 3 2 \\
+  2 2 \\
+  2 3 \\
+  \hline
+\end{tabular}\\
+【样例 1 输出】\\
+\begin{tabular}{|c|}
+  \hline
+  1 \\
+  1 \\
+  2 \\
+  \hline
+\end{tabular}\\
+【样例 1 解释】\\
+在修改操作之前，假设$H$老师进行了一次插入排序，则原序列的三个元素在排序
+结束后所处的位置分别是 3, 2, 1。\\
+在修改操作之前，假设$H$老师进行了一次插入排序，则原序列的三个元素在排序
+结束后所处的位置分别是 3, 1, 2。\\
+注意虽然此时 $a_2 = a_3$，但是我们不能将其视为相同的元素。\\
+解:
+\begin{lstlisting}[language=C++,breaklines=true]
+include <iostream>
+include <fstream>
+include <algorithm>
+
+using namespace std;
+
+struct node {
+    int id;
+    int num;
+};
+
+node a[8010];
+int b[8010];
+int n, q;
+
+void change(int pos) {
+    while (pos > 1) {
+        if (a[pos].num == a[pos - 1].num && a[pos].id > a[pos - 1].id) break;
+        if (a[pos].num > a[pos - 1].num) break;
+        swap(a[pos], a[pos - 1]);
+        b[a[pos].id] = pos;
+        pos--;
+    }
+    while (pos < n) {
+        if (a[pos].num == a[pos + 1].num && a[pos].id < a[pos + 1].id) break;
+        if (a[pos].num < a[pos + 1].num) break;
+        swap(a[pos], a[pos + 1]);
+        b[a[pos].id] = pos;
+        pos++;
+    }
+}
+
+bool cmp(node a, node b) {
+    if (a.num == b.num) return a.id < b.id;
+    else return a.num < b.num;
+}
+
+int main() {
+    ifstream fin("sort.in");
+    ofstream fout("sort.out");
+
+    fin >> n >> q;
+    for (int i = 1; i <= n; i++) {
+        fin >> a[i].num;
+        a[i].id = i;
+    }
+
+    sort(a + 1, a + 1 + n, cmp);
+    for (int i = 1; i <= n; i++) {
+        b[a[i].id] = i;
+    }
+
+    while (q--) {
+        int op, x, v;
+        fin >> op;
+        if (op == 1) {
+            fin >> x >> v;
+            a[b[x]].num = v;
+            change(b[x]);
+            for (int i = 1; i <= n; i++) {
+                b[a[i].id] = i;
+            }
+        } else {
+            fin >> x;
+            fout << b[x] << endl;
+        }
+    }
+
+    fin.close();
+    fout.close();
+    return 0;
+}
+\end{lstlisting}
+
+
 \section{NOIP2007 普及组 T1}
 [NOIP2007 普及组] 奖学金
  题目背景
@@ -3650,148 +3793,6 @@ int main() {
     while (s1.size() > 1) fout << *s1.begin() << endl, s1.erase(*s1.begin()); // 逐行输出 s1 剩余元素
     while (s2.size() > 1) fout << *s2.begin() << endl, s2.erase(*s2.begin()); // 逐行输出 s2 剩余元素
 
-    return 0;
-}
-\end{lstlisting}
-
-\section{sort}
-sort-csp-2021-2\\
-【题目描述】\\
-插入排序是一种非常常见且简单的排序算法。小$Z$是一名大一的新生，今天$H$老
-师刚刚在上课的时候讲了插入排序算法。\\
-假设比较两个元素的时间为$O(1)$，则插入排序可以以 $O(n^2)$ 的时间复杂度完成长
-度为$n$的数组的排序。不妨假设这$n$个数字分别存储在$a_1, a_2, \cdots, a_n$之中，则如下伪
-代码给出了插入排序算法的一种最简单的实现方式：\\
-这下面是 C/C++ 的示范代码
-\begin{lstlisting}[language=C++,breaklines=true]
-for(int i = 1; i <= n; i++){
-	for(int j = i; j >= 2; j--){
-		if(a[j] < a[j - 1]){
-			int t = a[j - 1];
-			a[j - 1] = a[j];
-			a[j] = t;
-		}
-	}
-}
-\end{lstlisting}
-为了帮助小$Z$更好的理解插入排序，小$Z$的老师$H$老师留下了这么一道家庭作业：\\
-$H$老师给了一个长度为$n$的数组$a$，数组下标从1开始，并且数组中的所有元素均
-为非负整数。小$Z$需要支持在数组$a$上的$Q$次操作，操作共两种，参数分别如下：\\
-$1\quad x\quad v$ : 这是第一种操作，会将$a$的第$x$个元素，也就是$a_x$的值，修改为$v$。保证
-$1 \leq x \leq n$, $1 \leq v \leq 10^9$。
-注意这种操作会改变数组的元素，修改得到的数组会被保留，也会影响后续的操作。\\
-$2\quad x$ : 这是第二种操作，假设$H$老师按照上面的伪代码对$a$数组进行排序，你需要
-告诉$H$老师原来$a$的第$x$个元素，也就是$a_x$，在排序后的新数组所处的位置。保证$1\leq x \leq n$。注意这种操作不会改变数组的元素，排序后的数组不会被保留，也不会影响后续的操作。\\
-$H$老师不喜欢过多的修改，所以他保证类型1的操作次数不超过5000。\\
-小$Z$没有学过计算机竞赛，因此小$Z$并不会做这道题。他找到了你来帮助他解决
-这个问题。\\
-【输入格式】\\
-从文件sort.in中读入数据。\\
-输入的第一行包含两个正整数 $n, q$，表示数组长度和操作次数。保证 $1 \leq n \leq
-8, 000, 1 \leq q \leq 2 \times 10^5$。\\
-输入的第二行包含$n$个空格分隔的非负整数，其中第$i$个非负整数表示$a_i$。保证
-$1 \leq a_i \leq 10^9$。\\
-接下来$q$行，每行$2 \sim 3$ 个正整数，表示一次操作，操作格式见题目描述。\\
-【输出格式】\\
-输出到文件sort.out中。\\
-对于每一次类型为 2 的询问，输出一行一个正整数表示答案。\\
-【样例 1 输入】\\
-\begin{tabular}{|c|}
-  \hline
-  3 4 \\
-  3 2 1 \\
-  2 3 \\
-  1 3 2 \\
-  2 2 \\
-  2 3 \\
-  \hline
-\end{tabular}\\
-【样例 1 输出】\\
-\begin{tabular}{|c|}
-  \hline
-  1 \\
-  1 \\
-  2 \\
-  \hline
-\end{tabular}\\
-【样例 1 解释】\\
-在修改操作之前，假设$H$老师进行了一次插入排序，则原序列的三个元素在排序
-结束后所处的位置分别是 3, 2, 1。\\
-在修改操作之前，假设$H$老师进行了一次插入排序，则原序列的三个元素在排序
-结束后所处的位置分别是 3, 1, 2。\\
-注意虽然此时 $a_2 = a_3$，但是我们不能将其视为相同的元素。\\
-解:
-\begin{lstlisting}[language=C++,breaklines=true]
-include <iostream>
-include <fstream>
-include <algorithm>
-
-using namespace std;
-
-struct node {
-    int id;
-    int num;
-};
-
-node a[8010];
-int b[8010];
-int n, q;
-
-void change(int pos) {
-    while (pos > 1) {
-        if (a[pos].num == a[pos - 1].num && a[pos].id > a[pos - 1].id) break;
-        if (a[pos].num > a[pos - 1].num) break;
-        swap(a[pos], a[pos - 1]);
-        b[a[pos].id] = pos;
-        pos--;
-    }
-    while (pos < n) {
-        if (a[pos].num == a[pos + 1].num && a[pos].id < a[pos + 1].id) break;
-        if (a[pos].num < a[pos + 1].num) break;
-        swap(a[pos], a[pos + 1]);
-        b[a[pos].id] = pos;
-        pos++;
-    }
-}
-
-bool cmp(node a, node b) {
-    if (a.num == b.num) return a.id < b.id;
-    else return a.num < b.num;
-}
-
-int main() {
-    ifstream fin("sort.in");
-    ofstream fout("sort.out");
-
-    fin >> n >> q;
-    for (int i = 1; i <= n; i++) {
-        fin >> a[i].num;
-        a[i].id = i;
-    }
-
-    sort(a + 1, a + 1 + n, cmp);
-    for (int i = 1; i <= n; i++) {
-        b[a[i].id] = i;
-    }
-
-    while (q--) {
-        int op, x, v;
-        fin >> op;
-        if (op == 1) {
-            fin >> x >> v;
-            a[b[x]].num = v;
-            change(b[x]);
-            for (int i = 1; i <= n; i++) {
-                b[a[i].id] = i;
-            }
-        } else {
-            fin >> x;
-            fout << b[x] << endl;
-        }
-    }
-
-    fin.close();
-    fout.close();
     return 0;
 }
 \end{lstlisting}
