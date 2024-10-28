@@ -1,144 +1,121 @@
-/*
-expr-csp-j-2022-3
-【题目描述】
-逻辑表达式是计算机科学中的重要概念和工具，包含逻辑值、逻辑运算、逻辑运算
-优先级等内容。
-在一个逻辑表达式中，元素的值只有两种可能：0 （表示假）和1 （表示真）。元素
-之间有多种可能的逻辑运算，本题中只需考虑如下两种：“与”（符号为\&）和“或”（符
-号为|）。其运算规则如下：
-0\&0 = 0\&1 = 1\&0 = 0，1\&1 = 1；
-0|0 = 0，0|1 = 1|0 = 1|1 = 1。
-在一个逻辑表达式中还可能有括号。规定在运算时，括号内的部分先运算；两种运
-算并列时，\& 运算优先于| 运算；同种运算并列时，从左向右运算。
-比如，表达式0|1\&0 的运算顺序等同于0|(1\&0) ；表达式0\&1\&0|1 的运算顺序等
-同于((0\&1)\&0)|1。
-此外，在C++ 等语言的有些编译器中，对逻辑表达式的计算会采用一种“短路”
-的策略。：在形如a\&b 的逻辑表达式中，会先计算a 部分的值，如果a = 0 ，那么整个
-逻辑表达式的值就一定为0，故无需再计算b 部分的值；同理，在形如a|b 的逻辑表达
-式中，会先计算a 部分的值，如果a = 1 ，那么整个逻辑表达式的值就一定为1，无需
-再计算b 部分的值。
-现在给你一个逻辑表达式，你需要计算出它的值，并且统计出在计算过程中，两种
-类型的“短路”各出现了多少次。需要注意的是，如果某处“短路”包含在更外层被“短
-路”的部分内则不被统计，如表达式1|(0\&1) 中，尽管0\&1 是一处“短路”，但由于外
-层的1|(0\&1) 本身就是一处“短路”，无需再计算0\&1 部分的值，因此不应当把这里的
-0\&1 计入一处“短路”。
-【输入格式】
-从文件expr.in 中读入数据。
-输入共一行，一个非空字符串s 表示待计算的逻辑表达式。
-【输出格式】
-输出到文件expr.out 中。
-输出共两行，第一行输出一个字符0 或1 ，表示这个逻辑表达式的值；第二行输
-出两个非负整数，分别表示计算上述逻辑表达式的过程中，形如a/\&b 和a|b 的“短路”
-各出现了多少次。
-【样例1 输入】
-0\&(1|0)|(1|1|1\&0)
-【样例1 输出】
-1
-1 2
-【样例1 解释】
-该逻辑表达式的计算过程如下，每一行的注释表示上一行计算的过程：
-0\&(1|0)|(1|1|1\&0)
-=(0\&(1|0))|((1|1)|(1\&0)) //用括号标明计算顺序
-=0|((1|1)|(1\&0)) //先计算最左侧的\&，是一次形如a\&b的“短路”
-=0|(1|(1\&0)) //再计算中间的|，是一次形如a|b的“短路”
-=0|1 //再计算中间的|，是一次形如a|b的“短路”
-=1
-【样例2 输入】
-(0|1\&0|1|1|(1|1))\&(0\&1\&(1|0)|0|1|0)\&0
-【样例2 输出】
-0
-2 3
-*/
-
-#include<bits/stdc++.h>
+#include <iostream>
+#include <fstream>
+#include <stack>
+#include <cstring>
 
 using namespace std;
 
 struct node {
-	int v;
-	int y;
-	int h;
+    int v; 
+    int y; 
+    int h; 
 };
 
-int main(){
-	char s[20];
+int main() {
+    ifstream fin("expr.in");
+    ofstream fout("expr.out");
 
-	stack<char> q;
-	stack<node> n;
+    char s[1000002];
+    stack<char> q;
+    stack<node> n; 
 
-	cin >> s;
+    fin >> s;
+    int l = strlen(s);
+    s[l] = ')'; 
+    q.push('(');
 
-	int l = strlen(s);
+    for (int i = 0; i <= l; i++) {
+        if (s[i] == '(') {
+            q.push(s[i]);
+        }
+        else if (s[i] == '0' || s[i] == '1') {
+            node temp;
+            temp.v = s[i] - '0';
+            temp.y = 0;
+            temp.h = 0;
+            n.push(temp);
+        }
+        else {
+            bool fff = false;
+            if (s[i] == ')') {
+                fff = true;
+                if (q.top() == '(') {
+                    q.pop();
+                }
+                else {
+                while (!n.empty() && !q.empty() && 
+                (q.top() == '&' || q.top() == '|')) {
+                        char z = q.top();
+                        q.pop();
+                        node a = n.top();
+                        n.pop();
+                        node b = n.top();
+                        n.pop();
+                        node temp;
+                        temp.y = b.y;
+                        temp.h = b.h;
+                        if (z == '&') {
+                            if (b.v == 0) temp.y++;
+                            else {
+                                temp.y += a.y;
+                                temp.h += a.h;
+                            }
+                            temp.v = a.v & b.v;
+                        }
+                        if (z == '|') {
+                            if (b.v == 1) temp.h++;
+                            else {
+                                temp.h += a.h;
+                                temp.y += a.y;
+                            }
+                            temp.v = a.v | b.v;
+                        }
+                        n.push(temp);
+                    }
+                    q.pop();
+                }
+            }
+            if (!n.empty() && !q.empty()) {
+            while ((q.top() == '&' && (s[i] == '&' || s[i] == '|')) || 
+            (q.top() == '|' && s[i] == '|')) {
+                    char z = q.top();
+                    q.pop();
+                    node a = n.top();
+                    n.pop();
+                    node b = n.top();
+                    n.pop();
+                    node temp;
+                    temp.y = b.y;
+                    temp.h = b.h;
+                    if (z == '&') {
+                        if (b.v == 0) temp.y++;
+                        else {
+                            temp.y += a.y;
+                            temp.h += a.h;
+                        }
+                        temp.v = a.v & b.v;
+                    }
+                    if (z == '|') {
+                        if (b.v == 1) temp.h++;
+                        else {
+                            temp.h += a.h;
+                            temp.y += a.y;
+                        }
+                        temp.v = a.v | b.v;
+                    }
+                    n.push(temp);
+                }
+            }
+            if (fff == false)
+                q.push(s[i]);
+        }
+    }
+    
+    fout << n.top().v << endl;
+    fout << n.top().y << ' ' << n.top().h << endl;
 
-	s[l] = ')';
+    fin.close();
+    fout.close();
 
-	q.push('(');
-
-	for(int i = 0; i <= l; i++){
-		if(s[i] == '('){
-			q.push(s[i]);
-		}else if(s[i] == '0' || s[i] == 'i'){
-			node temp;
-
-			temp.v = s[i] - '0';
-
-			temp.y = 0;
-
-			temp.h = 0;
-
-			n.push(temp);
-		}else{
-			bool fff = false;
-
-			if(q.top() == '('){
-				q.pop();
-			}else{
-				while (!n .empty() && !q.empty() && (q.top() == '&' || q.top() == '|')){
-					char z = q.top();
-					q.pop();
-					node a = n.top();
-					n.pop();
-					node b = n.top();
-					n.pop();
-					node temp;
-					temp.y == b.y;
-					temp.h == b.h;
-					if(z == '&'){
-						if(b.v == 0) temp.y++;
-					}else{
-							temp.v = a.v & b.v;
-					}
-					temp .v = a.v | b.v;
-				}
-			}
-			n.push(temp);
-		}
-		q.pop();
-	}
-}
-if(!n.empty() && !q.empty()){
-	while((q.top() == '&' && (s[i] == '&' || s[i] == '|')) || (q.top() == '|' && s[i] == '|')){
-					char z = q.top();
-					q.pop();
-					node a = n.top();
-					n.pop();
-					node b = n.top();
-					n.pop();
-					node temp;
-					temp.y == b.y;
-
-					temp.h == b.h;
-
-					if(z == '&'){
-						if(b.v == 0) temp.y++;
-					}else{
-						temp.v = a.v & b.v;
-					}
-					temp .v = a.v | b.v;
-				}
-			}
-			n.push(temp);
-		}
-		q.pop();
-	}
+    return 0;
 }
