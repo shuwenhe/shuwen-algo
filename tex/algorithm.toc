@@ -72,7 +72,7 @@
 \contentsline {chapter}{\numberline {第十一章\hspace {.3em}}dijkstra}{116}{chapter.0.11}%
 \contentsline {section}{\numberline {1}bus}{116}{section.0.11.1}%
 \contentsline {section}{\numberline {2}}{120}{section.0.11.2}%
-\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}dp}{125}{chapter.0.12}%
+\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}dynamic programming}{125}{chapter.0.12}%
 \contentsline {section}{\numberline {1}}{125}{section.0.12.1}%
 \contentsline {section}{\numberline {2}}{130}{section.0.12.2}%
 \contentsline {chapter}{\numberline {第十三章\hspace {.3em}}set}{134}{chapter.0.13}%

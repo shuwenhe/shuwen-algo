@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  28 OCT 2024 14:21
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  28 OCT 2024 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3118,8 +3118,14 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `algorithm.out' has not changed.
-(rerunfilecheck)             Checksum: E3DD11F11E456BE7C3CF85A30D916E9D;9118.
+
+Package rerunfilecheck Warning: File `algorithm.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `algorithm.out':
+(rerunfilecheck)             Before: E3DD11F11E456BE7C3CF85A30D916E9D;9118
+(rerunfilecheck)             After:  8EA37B743D1BC79FA474DF9516A442C7;9206.
  ) 
 Here is how much of TeX's memory you used:
  21213 strings out of 408993
