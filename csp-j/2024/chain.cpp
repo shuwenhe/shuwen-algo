@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];
 vector<int>v[200010];//每个人的词库
+
 inline int read(){//快读
     int x=0,f=1;
     char c=getchar();

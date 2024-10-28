@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  28 OCT 2024 14:05
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  28 OCT 2024 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2899,6 +2899,8 @@ File: pku.png Graphic file (type bmp)
 [125
 
 ]
+Missing character: There is no 、 in font [lmroman12-regular]:mapping=tex-text;!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2916,23 +2918,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [126]
-Underfull \vbox (badness 4316) has occurred while \output is active []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[127]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2949,7 +2934,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[128]
+[127]
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
@@ -2966,7 +2953,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
+[128]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
 [129]
+Underfull \vbox (badness 4316) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2981,13 +2988,61 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [130]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[131]
+Underfull \vbox (badness 2941) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[132]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[133]
 第十三章
 
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
 
 
-[131
+[134
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3006,7 +3061,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[132]
+[135]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
@@ -3023,7 +3078,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[133]
+[136]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3040,7 +3095,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[134]
+[137]
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -3054,7 +3109,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[135] (algorithm.aux)
+[138] (algorithm.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2022/08/05>
@@ -3063,14 +3118,8 @@ L3 programming layer <2022/08/05>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `algorithm.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `algorithm.out':
-(rerunfilecheck)             Before: 6A916C6CCB73873ED155CF8A4F0852D4;9118
-(rerunfilecheck)             After:  E3DD11F11E456BE7C3CF85A30D916E9D;9118.
+Package rerunfilecheck Info: File `algorithm.out' has not changed.
+(rerunfilecheck)             Checksum: E3DD11F11E456BE7C3CF85A30D916E9D;9118.
  ) 
 Here is how much of TeX's memory you used:
  21213 strings out of 408993
@@ -3081,4 +3130,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  93i,13n,131p,1209b,1755s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on algorithm.pdf (137 pages).
+Output written on algorithm.pdf (140 pages).

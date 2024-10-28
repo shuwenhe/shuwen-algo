@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+T	chain.cpp	/^int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];$/;"	v
+dp	chain.cpp	/^int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];$/;"	v
+k	chain.cpp	/^int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];$/;"	v
+l	chain.cpp	/^int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];$/;"	v
+main	chain.cpp	/^int main()$/;"	f
+n	chain.cpp	/^int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];$/;"	v
+q	chain.cpp	/^int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];$/;"	v
+read	chain.cpp	/^inline int read(){\/\/快读$/;"	f
+v	chain.cpp	/^vector<int>v[200010];\/\/每个人的词库$/;"	v
+xx	chain.cpp	/^int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];$/;"	v
+yy	chain.cpp	/^int T,n,k,q,l[200010],xx[200010],yy[200010],dp[200010][110];$/;"	v
