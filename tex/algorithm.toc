@@ -6,78 +6,79 @@
 \contentsline {section}{\numberline {5}[NOIP2015 提高组] 神奇的幻方}{13}{section.0.0.5}%
 \contentsline {section}{\numberline {6}}{14}{section.0.0.6}%
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}dfs}{16}{chapter.0.1}%
-\contentsline {section}{\numberline {1}dfs深度优先搜索}{16}{section.0.1.1}%
-\contentsline {section}{\numberline {2}dfs}{17}{section.0.1.2}%
-\contentsline {section}{\numberline {3}}{19}{section.0.1.3}%
-\contentsline {section}{\numberline {4}NOIP2002提高组T2}{20}{section.0.1.4}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}bfs}{24}{chapter.0.2}%
-\contentsline {section}{\numberline {1}bus}{24}{section.0.2.1}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}binary search}{28}{chapter.0.3}%
-\contentsline {section}{\numberline {1}binarySearch}{28}{section.0.3.1}%
-\contentsline {section}{\numberline {2}}{29}{section.0.3.2}%
-\contentsline {section}{\numberline {3}}{31}{section.0.3.3}%
-\contentsline {section}{\numberline {4}}{32}{section.0.3.4}%
-\contentsline {section}{\numberline {5}}{33}{section.0.3.5}%
-\contentsline {section}{\numberline {6}decode}{33}{section.0.3.6}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}prime}{37}{chapter.0.4}%
-\contentsline {section}{\numberline {1}prime}{37}{section.0.4.1}%
-\contentsline {section}{\numberline {2}prime}{37}{section.0.4.2}%
-\contentsline {section}{\numberline {3}prime}{40}{section.0.4.3}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}priority\_queue}{43}{chapter.0.5}%
-\contentsline {section}{\numberline {1}NOIP2004 提高组}{43}{section.0.5.1}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}greeedy}{45}{chapter.0.6}%
-\contentsline {section}{\numberline {1}greedy}{45}{section.0.6.1}%
-\contentsline {section}{\numberline {2}bookshelf}{46}{section.0.6.2}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}sort}{49}{chapter.0.7}%
-\contentsline {section}{\numberline {1}}{49}{section.0.7.1}%
-\contentsline {section}{\numberline {2}sort}{53}{section.0.7.2}%
-\contentsline {section}{\numberline {3}sort}{54}{section.0.7.3}%
-\contentsline {section}{\numberline {4}sort}{55}{section.0.7.4}%
-\contentsline {section}{\numberline {5}NOIP2007 普及组 T1}{59}{section.0.7.5}%
-\contentsline {section}{\numberline {6}NOIP 2006 普及组 第一题}{61}{section.0.7.6}%
-\contentsline {section}{\numberline {7}NOIP1998 提高组}{62}{section.0.7.7}%
-\contentsline {section}{\numberline {8}number}{63}{section.0.7.8}%
-\contentsline {section}{\numberline {9}noip2018-1}{65}{section.0.7.9}%
-\contentsline {section}{\numberline {10}noip2012-1}{66}{section.0.7.10}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}mathematics}{68}{chapter.0.8}%
-\contentsline {section}{\numberline {1}gcd}{68}{section.0.8.1}%
-\contentsline {section}{\numberline {2}pow}{69}{section.0.8.2}%
-\contentsline {section}{\numberline {3}power}{70}{section.0.8.3}%
-\contentsline {section}{\numberline {4}area}{73}{section.0.8.4}%
-\contentsline {section}{\numberline {5}char}{74}{section.0.8.5}%
-\contentsline {section}{\numberline {6}numberReverse}{74}{section.0.8.6}%
-\contentsline {section}{\numberline {7}buyPencil}{75}{section.0.8.7}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}bipartite graph}{77}{chapter.0.9}%
-\contentsline {section}{\numberline {1}transform}{77}{section.0.9.1}%
-\contentsline {chapter}{\numberline {第十章\hspace {.3em}}stack}{84}{chapter.0.10}%
-\contentsline {section}{\numberline {1}expr}{84}{section.0.10.1}%
-\contentsline {section}{\numberline {2}noip2002-1}{88}{section.0.10.2}%
-\contentsline {section}{\numberline {3}bubbleSort}{89}{section.0.10.3}%
-\contentsline {section}{\numberline {4}candy}{90}{section.0.10.4}%
-\contentsline {section}{\numberline {5}后缀自动机}{93}{section.0.10.5}%
-\contentsline {section}{\numberline {6}dag}{93}{section.0.10.6}%
-\contentsline {section}{\numberline {7}最大流问题}{93}{section.0.10.7}%
-\contentsline {section}{\numberline {8}最短路径（Dijkstra 算法）}{95}{section.0.10.8}%
-\contentsline {section}{\numberline {9}动态规划（01 背包问题）}{97}{section.0.10.9}%
-\contentsline {section}{\numberline {10}binarySearch}{98}{section.0.10.10}%
-\contentsline {section}{\numberline {11}排序问题}{99}{section.0.10.11}%
-\contentsline {section}{\numberline {12}live}{100}{section.0.10.12}%
-\contentsline {section}{\numberline {13}number}{101}{section.0.10.13}%
-\contentsline {section}{\numberline {14}expr}{104}{section.0.10.14}%
-\contentsline {section}{\numberline {15}point}{106}{section.0.10.15}%
-\contentsline {section}{\numberline {16}fruit}{108}{section.0.10.16}%
-\contentsline {section}{\numberline {17}solve}{111}{section.0.10.17}%
-\contentsline {section}{\numberline {18}network}{112}{section.0.10.18}%
-\contentsline {section}{\numberline {19}josephus}{113}{section.0.10.19}%
-\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}dijkstra}{116}{chapter.0.11}%
-\contentsline {section}{\numberline {1}bus}{116}{section.0.11.1}%
-\contentsline {section}{\numberline {2}}{120}{section.0.11.2}%
-\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}dynamic programming}{125}{chapter.0.12}%
-\contentsline {section}{\numberline {1}chain}{125}{section.0.12.1}%
-\contentsline {section}{\numberline {2}}{130}{section.0.12.2}%
-\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}set}{134}{chapter.0.13}%
-\contentsline {section}{\numberline {1}}{134}{section.0.13.1}%
-\contentsline {section}{\numberline {2}}{138}{section.0.13.2}%
-\contentsline {section}{\numberline {3}}{138}{section.0.13.3}%
-\contentsline {section}{\numberline {4}}{138}{section.0.13.4}%
-\contentsline {section}{\numberline {5}}{138}{section.0.13.5}%
+\contentsline {section}{\numberline {1}expr}{16}{section.0.1.1}%
+\contentsline {section}{\numberline {2}dfs深度优先搜索}{19}{section.0.1.2}%
+\contentsline {section}{\numberline {3}dfs}{20}{section.0.1.3}%
+\contentsline {section}{\numberline {4}}{22}{section.0.1.4}%
+\contentsline {section}{\numberline {5}NOIP2002提高组T2}{24}{section.0.1.5}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}bfs}{27}{chapter.0.2}%
+\contentsline {section}{\numberline {1}bus}{27}{section.0.2.1}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}binary search}{31}{chapter.0.3}%
+\contentsline {section}{\numberline {1}binarySearch}{31}{section.0.3.1}%
+\contentsline {section}{\numberline {2}}{32}{section.0.3.2}%
+\contentsline {section}{\numberline {3}}{34}{section.0.3.3}%
+\contentsline {section}{\numberline {4}}{35}{section.0.3.4}%
+\contentsline {section}{\numberline {5}}{36}{section.0.3.5}%
+\contentsline {section}{\numberline {6}decode}{36}{section.0.3.6}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}prime}{40}{chapter.0.4}%
+\contentsline {section}{\numberline {1}prime}{40}{section.0.4.1}%
+\contentsline {section}{\numberline {2}prime}{40}{section.0.4.2}%
+\contentsline {section}{\numberline {3}prime}{43}{section.0.4.3}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}pq}{46}{chapter.0.5}%
+\contentsline {section}{\numberline {1}NOIP2004 提高组}{46}{section.0.5.1}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}greeedy}{48}{chapter.0.6}%
+\contentsline {section}{\numberline {1}greedy}{48}{section.0.6.1}%
+\contentsline {section}{\numberline {2}bookshelf}{49}{section.0.6.2}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}sort}{52}{chapter.0.7}%
+\contentsline {section}{\numberline {1}}{52}{section.0.7.1}%
+\contentsline {section}{\numberline {2}sort}{56}{section.0.7.2}%
+\contentsline {section}{\numberline {3}sort}{57}{section.0.7.3}%
+\contentsline {section}{\numberline {4}sort}{58}{section.0.7.4}%
+\contentsline {section}{\numberline {5}NOIP2007 普及组 T1}{62}{section.0.7.5}%
+\contentsline {section}{\numberline {6}NOIP 2006 普及组 第一题}{64}{section.0.7.6}%
+\contentsline {section}{\numberline {7}NOIP1998 提高组}{65}{section.0.7.7}%
+\contentsline {section}{\numberline {8}number}{66}{section.0.7.8}%
+\contentsline {section}{\numberline {9}noip2018-1}{68}{section.0.7.9}%
+\contentsline {section}{\numberline {10}noip2012-1}{69}{section.0.7.10}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}mathematics}{71}{chapter.0.8}%
+\contentsline {section}{\numberline {1}gcd}{71}{section.0.8.1}%
+\contentsline {section}{\numberline {2}pow}{72}{section.0.8.2}%
+\contentsline {section}{\numberline {3}power}{73}{section.0.8.3}%
+\contentsline {section}{\numberline {4}area}{76}{section.0.8.4}%
+\contentsline {section}{\numberline {5}char}{77}{section.0.8.5}%
+\contentsline {section}{\numberline {6}numberReverse}{77}{section.0.8.6}%
+\contentsline {section}{\numberline {7}buyPencil}{78}{section.0.8.7}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}bipartite graph}{80}{chapter.0.9}%
+\contentsline {section}{\numberline {1}transform}{80}{section.0.9.1}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}stack}{87}{chapter.0.10}%
+\contentsline {section}{\numberline {1}expr}{87}{section.0.10.1}%
+\contentsline {section}{\numberline {2}noip2002-1}{91}{section.0.10.2}%
+\contentsline {section}{\numberline {3}bubbleSort}{92}{section.0.10.3}%
+\contentsline {section}{\numberline {4}candy}{93}{section.0.10.4}%
+\contentsline {section}{\numberline {5}后缀自动机}{96}{section.0.10.5}%
+\contentsline {section}{\numberline {6}dag}{96}{section.0.10.6}%
+\contentsline {section}{\numberline {7}最大流问题}{96}{section.0.10.7}%
+\contentsline {section}{\numberline {8}动态规划（01 背包问题）}{98}{section.0.10.8}%
+\contentsline {section}{\numberline {9}binarySearch}{99}{section.0.10.9}%
+\contentsline {section}{\numberline {10}排序问题}{100}{section.0.10.10}%
+\contentsline {section}{\numberline {11}live}{101}{section.0.10.11}%
+\contentsline {section}{\numberline {12}number}{103}{section.0.10.12}%
+\contentsline {section}{\numberline {13}expr}{105}{section.0.10.13}%
+\contentsline {section}{\numberline {14}point}{107}{section.0.10.14}%
+\contentsline {section}{\numberline {15}fruit}{110}{section.0.10.15}%
+\contentsline {section}{\numberline {16}solve}{112}{section.0.10.16}%
+\contentsline {section}{\numberline {17}network}{113}{section.0.10.17}%
+\contentsline {section}{\numberline {18}josephus}{115}{section.0.10.18}%
+\contentsline {chapter}{\numberline {第十一章\hspace {.3em}}dijkstra}{117}{chapter.0.11}%
+\contentsline {section}{\numberline {1}最短路径（Dijkstra 算法）}{117}{section.0.11.1}%
+\contentsline {section}{\numberline {2}bus}{118}{section.0.11.2}%
+\contentsline {section}{\numberline {3}}{122}{section.0.11.3}%
+\contentsline {chapter}{\numberline {第十二章\hspace {.3em}}dp}{128}{chapter.0.12}%
+\contentsline {section}{\numberline {1}chain}{128}{section.0.12.1}%
+\contentsline {section}{\numberline {2}}{133}{section.0.12.2}%
+\contentsline {chapter}{\numberline {第十三章\hspace {.3em}}set}{137}{chapter.0.13}%
+\contentsline {section}{\numberline {1}}{137}{section.0.13.1}%
+\contentsline {section}{\numberline {2}}{141}{section.0.13.2}%
+\contentsline {section}{\numberline {3}}{141}{section.0.13.3}%
+\contentsline {section}{\numberline {4}}{141}{section.0.13.4}%
+\contentsline {section}{\numberline {5}}{141}{section.0.13.5}%
