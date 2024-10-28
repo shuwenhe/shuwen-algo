@@ -3021,4 +3021,13 @@ Package rerunfilecheck Info: Checksums for `algorithm.out':
 (rerunfilecheck)             Before: ECBA278F1150C08256C42ED9E6435DCD;8564
 (rerunfilecheck)             After:  6A916C6CCB73873ED155CF8A4F0852D4;9118.
  ) 
-Here is how much of TeX
+Here is how much of TeX's memory you used:
+ 21195 strings out of 408993
+ 429202 string characters out of 5759005
+ 1196197 words of memory out of 5000000
+ 43553 multiletter control sequences out of 15000+600000
+ 570239 words of font info for 126 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 93i,13n,131p,1209b,1755s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on algorithm.pdf (131 pages).
