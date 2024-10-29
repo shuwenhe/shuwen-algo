@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  28 OCT 2024 17:00
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  29 OCT 2024 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3080,9 +3080,6 @@ File: pku.png Graphic file (type bmp)
 [136]
 第十三章
 
-Underfull \vbox (badness 1337) has occurred while \output is active []
-
-
 
 [137
 
@@ -3121,6 +3118,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [139]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[140]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3137,7 +3148,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[140]
+[141]
+Underfull \vbox (badness 2941) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -3151,7 +3165,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[141] (algorithm.aux)
+[142]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[143]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[144] (algorithm.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2022/08/05>
@@ -3161,15 +3206,15 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `algorithm.out' has not changed.
-(rerunfilecheck)             Checksum: DD0433B166FA088C676E458D44884C1D;9166.
+(rerunfilecheck)             Checksum: A846C6A1FFC4A836E297E5896DAC32F9;9240.
  ) 
 Here is how much of TeX's memory you used:
- 21229 strings out of 408993
- 429549 string characters out of 5759005
+ 21237 strings out of 408993
+ 429655 string characters out of 5759005
  1195845 words of memory out of 5000000
- 43586 multiletter control sequences out of 15000+600000
+ 43594 multiletter control sequences out of 15000+600000
  570247 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,13n,131p,1209b,1755s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on algorithm.pdf (143 pages).
+Output written on algorithm.pdf (146 pages).
