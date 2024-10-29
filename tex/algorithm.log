@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  29 OCT 2024 16:02
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  29 OCT 2024 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,18 +910,24 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 [2
 
 ]
-
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-35.
-[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
+LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
+33.
+[3]
+
 [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [5]
+Underfull \vbox (badness 5607) has occurred while \output is active []
+
+
 
 [6])
 \tf@toc=\write4
@@ -1306,14 +1312,15 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [27]
 第二章
-File: bus.png Graphic file (type bmp)
-<bus.png>
+
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
 
 
 [28
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
@@ -1347,6 +1354,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [30]
+File: bus.png Graphic file (type bmp)
+<bus.png>
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1361,12 +1371,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [31]
-第三章
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-[32
 
-]
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[32]
+Underfull \vbox (badness 4328) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1381,7 +1405,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [33]
-Underfull \vbox (badness 2941) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1412,20 +1436,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [35]
+第三章
 
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+[36
 
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[36]
+]
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1440,7 +1456,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [37]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
@@ -1457,9 +1473,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [38]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1488,18 +1501,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [40]
-第四章
 
-Underfull \hbox (badness 10000) in paragraph at lines 1422--1452
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
 
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
 
-
-[41
-
-]
-Underfull \vbox (badness 2941) has occurred while \output is active []
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1516,6 +1532,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1544,77 +1563,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+第四章
+
+Underfull \hbox (badness 10000) in paragraph at lines 1559--1589
+
+ []
 
 
 
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[45]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[46]
-第五章
-
-
-[47
+[45
 
 ]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[48]
-第六章
-
-
-[49
-
-]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[50]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
@@ -1631,7 +1590,72 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[51]
+[46]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[47]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[49]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[50]
+第五章
+
+
+[51
+
+]
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1646,15 +1670,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [52]
-第七章
+第六章
 
 
 [53
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1669,7 +1690,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
@@ -1686,9 +1707,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [55]
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1703,21 +1721,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [56]
+第七章
 
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+[57
 
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[57]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+]
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
@@ -1782,7 +1792,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
@@ -1813,9 +1823,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [63]
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1830,9 +1837,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 2294--2312
-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1849,11 +1854,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [65]
-Overfull \hbox (70.70877pt too wide) in paragraph at lines 2333--2334
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1868,6 +1868,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1899,14 +1902,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [68]
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 2467--2493
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[69]
+Underfull \vbox (badness 2941) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 2538--2556
 
  []
 
@@ -1924,44 +1951,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[69]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[70]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
 [71]
-第八章
+Overfull \hbox (70.70877pt too wide) in paragraph at lines 2577--2578
+[][][][][][][][][][][][][][][][][][][][] 
+ []
 
 
-[72
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[72]
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1976,7 +1988,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [73]
-Missing character: There is no ， in font [lmroman12-regular]:mapping=tex-text;!
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
 
 
 File: shuwenedu.png Graphic file (type bmp)
@@ -1992,7 +2005,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [74]
-Underfull \vbox (badness 4403) has occurred while \output is active []
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 2711--2737
+
+ []
 
 
 
@@ -2009,14 +2031,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [75]
-Underfull \hbox (badness 10000) in paragraph at lines 2730--2756
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2031,6 +2045,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [76]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[77]
+第八章
+
+
+[78
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2047,40 +2081,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[77]
-Underfull \hbox (badness 10000) in paragraph at lines 2790--2801
-
- []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[78]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
 [79]
+Missing character: There is no ， in font [lmroman12-regular]:mapping=tex-text;!
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2095,15 +2098,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [80]
-第九章
-File: transform.png Graphic file (type bmp)
-<transform.png>
+Underfull \vbox (badness 4403) has occurred while \output is active []
 
 
-[81
 
-]
-Underfull \vbox (badness 1264) has occurred while \output is active []
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 2974--3000
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2137,7 +2154,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [83]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 3034--3045
+
+ []
 
 
 
@@ -2154,9 +2173,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [84]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2171,9 +2187,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [85]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2188,6 +2201,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [86]
+第九章
+File: transform.png Graphic file (type bmp)
+<transform.png>
+
+
+[87
+
+]
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2201,22 +2225,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[87]
-第十章
-
-Overfull \hbox (14.25352pt too wide) in paragraph at lines 3066--3115
-\TU/SimSun(0)/m/n/12 比 如，|  表 达 式 \TU/lmr/m/n/12 0|1&0 \TU/SimSun(0)/m/n/12 的 运
- 算 顺 序 等 同 于 \TU/lmr/m/n/12 0|(1&0) \TU/SimSun(0)/m/n/12 ；|  表 达 式 \TU/lmr/m/n/
-12 0&1&0|1 \TU/SimSun(0)/m/n/12 的 运 算 顺 序 等 同 于 \TU/lmr/m/n/12 ((0&1)&0)|1\TU/S
-imSun(0)/m/n/12 。| 
- []
-
-
-
-[88
-
-]
-Underfull \vbox (badness 2941) has occurred while \output is active []
+[88]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2250,12 +2260,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [90]
-Overfull \hbox (20.30826pt too wide) in paragraph at lines 3193--3194
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][] 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2273,9 +2277,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [91]
-Underfull \hbox (badness 10000) in paragraph at lines 3239--3254
-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2306,38 +2308,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [93]
-Overfull \hbox (27.04213pt too wide) in paragraph at lines 3307--3388
-\TU/SimSun(0)/m/n/12 篮 子 里 的 糖 数 量|   []$\OML/cmm/m/it/12 n$ \TU/SimSun(0)/m/n/
-12 块。|  此 时 篮 子 里 剩 余 的 糖 果 均 归 你 所 有 |— —|  这 些 糖 果 是|   []。| 
- []
+第十章
 
-
-Overfull \hbox (54.75626pt too wide) in paragraph at lines 3307--3388
-\TU/SimSun(0)/m/n/12 作 为 幼 儿 园 高 质 量 小 朋 友，|  你 希 望 让|   []的 糖 果 数 量  |（|   []！
- ）|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3307--3388
-
+Overfull \hbox (14.25352pt too wide) in paragraph at lines 3310--3359
+\TU/SimSun(0)/m/n/12 比 如，|  表 达 式 \TU/lmr/m/n/12 0|1&0 \TU/SimSun(0)/m/n/12 的 运
+ 算 顺 序 等 同 于 \TU/lmr/m/n/12 0|(1&0) \TU/SimSun(0)/m/n/12 ；|  表 达 式 \TU/lmr/m/n/
+12 0&1&0|1 \TU/SimSun(0)/m/n/12 的 运 算 顺 序 等 同 于 \TU/lmr/m/n/12 ((0&1)&0)|1\TU/S
+imSun(0)/m/n/12 。| 
  []
 
 
 
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
+[94
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[94]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+]
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
@@ -2371,20 +2356,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [96]
+Overfull \hbox (20.30826pt too wide) in paragraph at lines 3437--3438
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][] 
+ []
 
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[97]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2401,9 +2378,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[98]
-Overfull \hbox (13.10818pt too wide) in paragraph at lines 3517--3518
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 3483--3498
+
  []
 
 
@@ -2420,10 +2397,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
+[98]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
 [99]
-Overfull \hbox (164.30972pt too wide) in paragraph at lines 3523--3524
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][] 
+Overfull \hbox (27.04213pt too wide) in paragraph at lines 3551--3632
+\TU/SimSun(0)/m/n/12 篮 子 里 的 糖 数 量|   []$\OML/cmm/m/it/12 n$ \TU/SimSun(0)/m/n/
+12 块。|  此 时 篮 子 里 剩 余 的 糖 果 均 归 你 所 有 |— —|  这 些 糖 果 是|   []。| 
+ []
+
+
+Overfull \hbox (54.75626pt too wide) in paragraph at lines 3551--3632
+\TU/SimSun(0)/m/n/12 作 为 幼 儿 园 高 质 量 小 朋 友，|  你 希 望 让|   []的 糖 果 数 量  |（|   []！
+ ）|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3551--3632
+
  []
 
 
@@ -2441,7 +2443,91 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [100]
-Overfull \hbox (229.11038pt too wide) in paragraph at lines 3571--3572
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[101]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[102]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[103]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[104]
+Overfull \hbox (13.10818pt too wide) in paragraph at lines 3761--3762
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[105]
+Overfull \hbox (164.30972pt too wide) in paragraph at lines 3767--3768
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][] 
  []
@@ -2460,95 +2546,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[101]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[102]
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[103]
-File: num.png Graphic file (type bmp)
-<num.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[104]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[105]
-Missing character: There is no 𝑞 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 𝑥 in font cmmi12!
-Missing character: There is no 𝑥 in font cmmi12!
-Missing character: There is no 𝑥 in font cmmi12!
-Missing character: There is no 𝑥 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 𝑥 in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no 𝑥 in font [lmroman12-regular]:mapping=tex-text;!
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
 [106]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (229.11038pt too wide) in paragraph at lines 3815--3816
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][] 
+ []
 
 
 
@@ -2579,7 +2581,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [108]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
@@ -2596,10 +2598,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [109]
-Underfull \hbox (badness 10000) in paragraph at lines 3935--3981
-
- []
-
+File: num.png Graphic file (type bmp)
+<num.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2618,6 +2618,42 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [110]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[111]
+Missing character: There is no 𝑞 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 𝑥 in font cmmi12!
+Missing character: There is no 𝑥 in font cmmi12!
+Missing character: There is no 𝑥 in font cmmi12!
+Missing character: There is no 𝑥 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 𝑥 in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no 𝑥 in font [lmroman12-regular]:mapping=tex-text;!
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[112]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2634,54 +2670,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[111]
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[112]
-Underfull \hbox (badness 10000) in paragraph at lines 4043--4044
-
- []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
 [113]
-Missing character: There is no ∼ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 4069--4147
-
- []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2713,11 +2702,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [115]
-Missing character: There is no � in font [lmroman12-regular]:mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 4149--4164
+Underfull \hbox (badness 10000) in paragraph at lines 4179--4225
 
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2734,6 +2724,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2748,19 +2741,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [117]
-第十一章
-
-Overfull \hbox (142.7095pt too wide) in paragraph at lines 4213--4214
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
-[118
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
 
-]
-Overfull \hbox (56.30862pt too wide) in paragraph at lines 4243--4244
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[118]
+Underfull \hbox (badness 10000) in paragraph at lines 4287--4288
+
  []
 
 
@@ -2778,7 +2777,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [119]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Missing character: There is no ∼ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 4313--4391
+
+ []
 
 
 
@@ -2795,7 +2802,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [120]
-Underfull \vbox (badness 2941) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2812,7 +2819,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [121]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Missing character: There is no � in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 4393--4408
+
+ []
 
 
 
@@ -2843,36 +2854,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [123]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+第十一章
 
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[124]
-Overfull \hbox (27.81514pt too wide) in paragraph at lines 4460--4468
-[]\TU/lmr/m/n/12 “‘ 5 Server 192.168.1.1:8080 Server 192.168.1.1:8080 Client 19
-2.168.1.1:8080 Client 192.168.1.1:80
+Overfull \hbox (142.7095pt too wide) in paragraph at lines 4457--4458
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (10.17514pt too wide) in paragraph at lines 4483--4496
-[]\TU/lmr/m/n/12 “‘ 10 Server 192.168.1.1:80 Client 192.168.1.1:80 Client 192.1
-68.1.1:8080 Server 192.168.1.1:80
+
+[124
+
+]
+Overfull \hbox (56.30862pt too wide) in paragraph at lines 4487--4488
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2923,6 +2918,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [127]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2937,12 +2935,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [128]
-第十二章
 
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
 
-[129
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-]
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[129]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2960,7 +2966,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [130]
-Missing character: There is no 、 in font [lmroman12-regular]:mapping=tex-text;!
+Overfull \hbox (27.81514pt too wide) in paragraph at lines 4704--4712
+[]\TU/lmr/m/n/12 “‘ 5 Server 192.168.1.1:8080 Server 192.168.1.1:8080 Client 19
+2.168.1.1:8080 Client 192.168.1.1:80
+ []
+
+
+Overfull \hbox (10.17514pt too wide) in paragraph at lines 4727--4740
+[]\TU/lmr/m/n/12 “‘ 10 Server 192.168.1.1:80 Client 192.168.1.1:80 Client 192.1
+68.1.1:8080 Server 192.168.1.1:80
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2979,6 +2995,96 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [131]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[132]
+Underfull \vbox (badness 2941) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[133]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[134]
+第十二章
+
+
+[135
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[136]
+Missing character: There is no 、 in font [lmroman12-regular]:mapping=tex-text;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[137]
 Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 2941) has occurred while \output is active []
@@ -2997,95 +3103,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[132]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[133]
-Underfull \vbox (badness 4316) has occurred while \output is active []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[134]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[135]
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
-
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[136]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[137]
-第十三章
-
-
-[138
-
-]
+[138]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3103,7 +3121,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [139]
-Underfull \vbox (badness 2941) has occurred while \output is active []
+Underfull \vbox (badness 4316) has occurred while \output is active []
 
 
 
@@ -3120,20 +3138,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [140]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[141]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3150,7 +3154,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[142]
+[141]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
@@ -3167,42 +3171,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
+[142]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
 [143]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+第十三章
 
 
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[144]
-
-File: shuwenedu.png Graphic file (type bmp)
-<shuwenedu.png>
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 30.6951pt, for example:
-(fancyhdr)                \setlength{\headheight}{30.6951pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
-
-File: pku.png Graphic file (type bmp)
-<pku.png>
-[145]
-第十四章
-
-
-[146
+[144
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3221,7 +3208,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[147]
+[145]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
@@ -3238,8 +3225,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[148]
+[146]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[147]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[148]
+Underfull \vbox (badness 2941) has occurred while \output is active []
 
 
 
@@ -3287,10 +3305,98 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [151]
-第十五章
+第十四章
 
 
 [152
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[153]
+Underfull \vbox (badness 2941) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[154]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[155]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[156]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[157]
+第十五章
+
+
+[158
 
 ]
 Underfull \vbox (badness 2941) has occurred while \output is active []
@@ -3309,7 +3415,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[153]
+[159]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3326,7 +3432,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[154]
+[160]
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -3340,13 +3446,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[155]
+[161]
 第十六章
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[156
+
+
+[162
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -3360,7 +3472,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[157]
+[163]
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -3374,7 +3486,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: pku.png Graphic file (type bmp)
 <pku.png>
-[158] (algorithm.aux)
+[164]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[165]
+
+File: shuwenedu.png Graphic file (type bmp)
+<shuwenedu.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.6951pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.6951pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-18.6951pt}.
+
+File: pku.png Graphic file (type bmp)
+<pku.png>
+[166] (algorithm.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2022/08/05>
@@ -3384,15 +3527,15 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `algorithm.out' has not changed.
-(rerunfilecheck)             Checksum: 4B9142F6A0236C3B8ECE1CDC4907955B;9828.
+(rerunfilecheck)             Checksum: 0E676F9BB52F5D5E58AC7F44FAD9792F;10023.
  ) 
 Here is how much of TeX's memory you used:
- 21292 strings out of 408993
- 430706 string characters out of 5759005
- 1195854 words of memory out of 5000000
- 43649 multiletter control sequences out of 15000+600000
+ 21330 strings out of 408993
+ 432046 string characters out of 5759005
+ 1195855 words of memory out of 5000000
+ 43687 multiletter control sequences out of 15000+600000
  570247 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,13n,131p,1209b,1755s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on algorithm.pdf (160 pages).
+Output written on algorithm.pdf (168 pages).
