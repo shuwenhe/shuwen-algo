@@ -12,14 +12,15 @@ struct node {
 };
 
 int main() {
-    ifstream fin("expr.in");
-    ofstream fout("expr.out");
+    freopen("expr.in","r",stdin);
+    freopen("expr.out","w",stdout);
 
     char s[1000002];
     stack<char> q;
     stack<node> n; 
 
-    fin >> s;
+    //fin >> s;
+    cin >> s;
     int l = strlen(s);
     s[l] = ')'; 
     q.push('(');
@@ -111,11 +112,8 @@ int main() {
         }
     }
     
-    fout << n.top().v << endl;
-    fout << n.top().y << ' ' << n.top().h << endl;
-
-    fin.close();
-    fout.close();
+    cout << n.top().v << endl;
+    cout << n.top().y << ' ' << n.top().h << endl;
 
     return 0;
 }
