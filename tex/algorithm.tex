@@ -106,6 +106,97 @@ ShuwenHe\\
 dynamic programming动态规划\\
 动态规划转移方程：
 
+\section{polygon}
+ [IOI1998] Polygon
+Polygon is a game for one player that starts on a polygon with $N$ vertices, like the one in Figure 1, where $N=4$. Each vertex is labelled with an integer and each edge is labelled with either the symbol `+` (addition) or the symbol `*` (product). The edges are numbered from $1$ to $N$.\\
+On the first move, one of the edges is removed. Subsequent moves involve the following steps: 
+- pick an edge $E$ and the two vertices $V_1$ and $V_2$ that are linked by $E$; and 
+- replace them by a new vertex, labelled with the result of performing the operation indicated in $E$ on the labels of $V_1$ and $V_2$.
+
+The game ends when there are no more edges, and its score is the label of the single vertex remaining. 
+
+Consider the polygon of Figure 1. The player started by removing edge 3. After that, the player picked edge 1, then edge 4, and, finally, edge 2. The score is 0. 
+
+Write a program that, given a polygon, computes the highest possible score and lists all the edges that, if removed on the first move, can lead to a game with that score.
+
+ 输入格式
+
+Your program is to read from standard input. The input describes a polygon with N vertices. It contains two lines. On the first line is the number N. The second line contains the labels of edges 1, ..., N, interleaved with the vertices' labels (first that of the vertex between edges 1 and 2, then that of the vertex between edges 2 and 3, and so on, until that of the vertex between edges N and 1), all separated by one space. An edge label is either the letter t (representing +) or the letter x (representing *). 
+
+3 <= N <= 50 
+
+
+For any sequence of moves, vertex labels are in the range [-32768,32767].
+
+ 输出格式
+
+Your program is to write to standard output. On the first line your program must write the highest score one can get for the input polygon. On the second line it must write the list of all edges that, if removed on the first move, can lead to a game with that score. Edges must be written in increasing order, separated by one space.
+
+ 样例 1
+
+ 样例输入 1
+
+```
+4
+t -7 t 4 x 2 x 5
+```
+
+ 样例输出 1
+
+```
+33
+1 2
+```
+\begin{lstlisting}[language=c++,breaklines=true]
+include<bits/stdc++.h>
+using namespace std;
+const int maxn=100+10;
+char c[maxn];
+int a[maxn];
+short int n;
+int dp1[maxn][maxn],dp2[maxn][maxn];// dp1维护max,dp2维护min;
+int x[maxn];
+int main(){
+	cin>>n;
+	for(int i=1;i<=n;i++){//把区间翻倍，这里如果看不懂，建议先去看合并石子会好一些
+		cin>>c[i]>>a[i];
+		c[i+n]=c[i];
+		a[i+n]=a[i];
+	}	
+	int N=n*2-1;
+	memset(dp1,0x80,sizeof(dp1));//极小值
+	memset(dp2,0x3f,sizeof(dp2));//极大值
+	for(int i=1;i<=N;i++){
+		dp1[i][i]=a[i];
+		dp2[i][i]=a[i];
+	}
+	for(int len=2;len<=n;len++){
+		for(int i=1;i+len-1<=N;i++){//区间DP开始
+			int j=i+len-1;
+			for(int k=i+1;k<=j;k++){
+				if(c[k]=='x'){//乘法，维护max与min
+				dp1[i][j]=max(dp1[i][j],max(dp1[i][k-1]*dp1[k][j],max(dp2[i][k-1]*dp1[k][j],max(dp1[i][k-1]*dp2[k][j],dp2[i][k-1]*dp2[k][j]))));
+				dp2[i][j]=min(dp2[i][j],min(dp1[i][k-1]*dp1[k][j],min(dp2[i][k-1]*dp1[k][j],min(dp1[i][k-1]*dp2[k][j],dp2[i][k-1]*dp2[k][j]))));
+				}
+				else {//加法直接解决
+				dp1[i][j]=max(dp1[i][j],dp1[i][k-1]+dp1[k][j]);		
+				dp2[i][j]=min(dp2[i][j],dp2[i][k-1]+dp2[k][j]);
+				}
+			}
+		}
+	}
+	int ans=-2147418364,cnt=0;//最后输出
+	for(int i = 1;i <= n;i ++)ans = max(ans,dp1[i][i + n - 1]);
+	cout<<ans<<endl;
+	for(int i=1;i<=n;i++){
+	if(dp1[i][i+n-1]==ans)
+	cout<<i<<" ";
+	}
+	for(int i=1;i<=cnt;i++)cout<<x[i]<<" ";
+	return 0;
+}
+\end{lstlisting}
+
 \section{}
  [CSP-S2019] 划分
 
@@ -6842,10 +6933,7 @@ int main() {
 
 \end{lstlisting}
 
-\section{}
-\begin{lstlisting}[language=c++,breaklines=true]
 
-\end{lstlisting}
 
 \clearpage
 \end{document}
