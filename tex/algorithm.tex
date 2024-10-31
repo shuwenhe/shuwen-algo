@@ -103,7 +103,292 @@ ShuwenHe\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{dp}
-dynamic programming动态规划
+dynamic programming动态规划\\
+动态规划转移方程：
+
+\section{}
+ [CSP-S2019] 划分
+
+ 题目描述
+
+2048 年，第三十届 CSP 认证的考场上，作为选手的小明打开了第一题。这个题的样例有 $n$ 组数据，数据从 $1 \sim n$ 编号，$i$ 号数据的规模为 $a_i$。
+
+小明对该题设计出了一个暴力程序，对于一组规模为 $u$ 的数据，该程序的**运行时间**为 $u^2$。然而这个程序运行完一组规模为 $u$ 的数据之后，它将在任何一组规模**小于** $u$ 的数据上运行错误。样例中的 $a_i$ 不一定递增，但小明又想在不修改程序的情况下正确运行样例，于是小明决定使用一种非常原始的解决方案：将所有数据划分成若干个数据段，段内数据编号**连续**，接着将同一段内的数据合并成新数据，其规模等于段内原数据的**规模之和**，小明将让新数据的规模能够递增。
+
+也就是说，小明需要找到一些分界点 $1 \leq k_1 < k_2 < \cdots < k_p < n$，使得
+
+$$ \sum_{i=1}^{k_1} a_i \leq \sum_{i=k_1+1}^{k_2} a_i \leq \cdots \leq \sum_{i=k_p+1}^{n} a_i $$
+
+注意 $p$ 可以为 $0$ 且此时 $k_0 = 0$，也就是小明可以将所有数据合并在一起运行。
+
+小明希望他的程序在正确运行样例情况下，运行时间也能尽量小，也就是**最小化**
+
+$$ (\sum_{i=1}^{k_1} a_i)^2 + (\sum_{i=k_1+1}^{k_2} a_i)^2 + \cdots + (\sum_{i=k_p+1}^{n} a_i)^2 $$
+
+小明觉得这个问题非常有趣，并向你请教：给定 $n$ 和 $a_i$，请你求出最优划分方案下，小明的程序的最小运行时间。
+
+ 输入格式
+
+**由于本题的数据范围较大，部分测试点的 $a_i$ 将在程序内生成。**
+
+第一行两个整数 $n, type$。$n$ 的意义见题目描述，$type$ 表示输入方式。
+1. 若 $type = 0$，则该测试点的 $a_i$ **直接给出**。输入文件接下来：第二行 $n$ 个以空格分隔的整数 $a_i$，表示每组数据的规模。
+2. 若 $type = 1$，则该测试点的 $a_i$ 将**特殊生成**，生成方式见后文。输入文件接下来：第二行六个以空格分隔的整数 $x, y, z, b_1, b_2, m$。接下来 $m$ 行中，第 $i (1 \leq i \leq m)$ 行包含三个以空格分隔的正整数 $p_i, l_i, r_i$。
+
+对于 $type = 1$ 的 23~25 号测试点，$a_i$ 的生成方式如下：
+
+给定整数 $x, y, z, b_1, b_2, m$，以及 $m$ 个三元组 $(p_i, l_i, r_i)$。
+
+保证 $n \geq 2$。若 $n > 2$，则 $\forall 3 \leq i \leq n, b_i = (x \times b_{i−1} + y \times b_{i−2} + z) \mod 2^{30}$。
+
+保证 $1 \leq p_i \leq n, p_m = n$。令 $p_0 = 0$，则 $p_i$ 还满足 $\forall 0 \leq i < m$ 有 $p_i < p_{i+1}$。
+
+对于所有 $1 \leq j \leq m$，若下标值 $i (1 \leq i \leq n)$满足 $p_{j−1} < i \leq p_j$，则有
+
+$$a_i = \left(b_i \mod \left( r_j − l_j + 1 \right) \right) + l_j$$
+
+**上述数据生成方式仅是为了减少输入量大小，标准算法不依赖于该生成方式。**
+
+ 输出格式
+
+输出一行一个整数，表示答案。
+
+ 样例 1
+
+ 样例输入 1
+
+```
+5 0
+5 1 7 9 9
+```
+
+ 样例输出 1
+
+```
+247
+```
+
+ 样例 2
+
+ 样例输入 2
+
+```
+10 0
+5 6 7 7 4 6 2 13 19 9
+```
+
+ 样例输出 2
+
+```
+1256
+```
+
+ 样例 3
+
+ 样例输入 3
+
+```
+10000000 1
+123 456 789 12345 6789 3
+2000000 123456789 987654321
+7000000 234567891 876543219
+10000000 456789123 567891234
+```
+
+ 样例输出 3
+
+```
+4972194419293431240859891640
+```
+
+ 提示
+
+【样例 1 解释】
+
+最优的划分方案为 $\{5,1\}, \{7\}, \{9\}, \{9\}$。由 $5 + 1 \leq 7 \leq 9 \leq 9$ 知该方案合法。
+
+答案为 $(5 + 1)^2 + 7^2 + 9^2 + 9^2 = 247$。
+
+虽然划分方案 $\{5\}, \{1\}, \{7\}, \{9\}, \{9\}$ 对应的运行时间比 $247$ 小，但它不是一组合法方案，因为 $5 > 1$。
+
+虽然划分方案 $\{5\}, \{1,7\}, \{9\}, \{9\}$ 合法，但该方案对应的运行时间为 $251$，比 $247$ 大。
+
+【样例 2 解释】
+
+最优的划分方案为 $\{5\}, \{6\}, \{7\}, \{7\}, \{4,6,2\}, \{13\}, \{19,9\}$。
+
+【数据范围】
+
+| 测试点编号 | $n \leq$ | $a_i \leq$ | $type =$ |
+| :----------- | :----------- | :----------- | :----------- |
+| $1 \sim 3$ | $10$ | $10$ | 0 |
+| $4 \sim 6$ | $50$ | $10^3$ | 0 |
+| $7 \sim 9$ | $400$ | $10^4$ | 0 |
+| $10 \sim 16$ | $5000$ | $10^5$ | 0 |
+| $17 \sim 22$ | $5 \times 10^5$ | $10^6$ | 0 |
+| $23 \sim 25$ | $4 \times 10^7$ | $10^9$ | 1 |
+
+对于$type=0$的所有测试点,保证最后输出的答案$\leq 4 \times 10^{18}$
+
+所有测试点满足：$type \in \{0,1\}$，$2 \leq n \leq 4 \times 10^7$，$1 \leq a_i \leq 10^9$，$1 \leq m \leq 10^5$，$1 \leq l_i \leq r_i \leq 10^9$，$0 \leq x,y,z,b_1,b_2 < 2^{30}$。
+\begin{lstlisting}[language=c++,breaklines=true]
+include <cstdio>
+define ll long long
+int n,type;
+int dp[40000005];
+ll pre[40000005];
+
+int h = 1,r = 1;
+struct node{
+	ll x,y;
+}Q[40000005];
+
+int m;
+ll x,y,z;
+int p[100005],l[100005],_r[100005];
+
+void init(){
+	scanf("%lld%lld%lld%lld%lld%d",&x,&y,&z,&pre[1],&pre[2],&m);
+	for(int i = 3;i <= n;i++) pre[i] = (x * pre[i - 1] + y * pre[i - 2] + z) % 1073741824;
+	for(int i = 1;i <= m;i++){
+		scanf("%d%d%d",&p[i],&l[i],&_r[i]);
+		for(int j = p[i - 1] + 1;j <= p[i];j++) pre[j] = pre[j] % (_r[i] - l[i] + 1) + l[i];
+	}
+}
+
+int main(){
+	scanf("%d%d",&n,&type);
+	if(type == 1) init();
+	else for(int i = 1;i <= n;i++) scanf("%lld",&pre[i]);
+	for(int i = 1;i <= n;i++) pre[i] += pre[i - 1];
+	Q[r++] = {0,0};
+	int j = 0;
+	for(int i = 1;i <= n;i++){
+		while(h != r){
+			if(Q[h].x <= pre[i]){
+				j = Q[h++].y;
+			}else{
+				break;
+			}
+		}
+		dp[i] = j;
+		while(h != r){
+			if(Q[r - 1].x >= 2 * pre[i] - pre[j]){
+				r--;
+			}else{
+				break;
+			}
+		}
+		Q[r++] = {2 * pre[i] - pre[j],i};
+	}
+	__int128 ans = 0;
+	int p = n;
+	while(p){
+		ans += (__int128)(pre[p] - pre[dp[p]]) * (pre[p] - pre[dp[p]]);
+		p = dp[p];
+	}
+	
+	int st[70],tp = 0;
+	while(ans){
+		st[++tp] = ans % 10;
+		ans /= 10;
+	}
+	while(tp) printf("%d",st[tp--]);
+	return 0;
+}
+\end{lstlisting}
+
+\section{grid number}
+ [CSP-J2020] 方格取数
+
+ 题目描述
+
+设有 $n \times m$ 的方格图，每个方格中都有一个整数。现有一只小熊，想从图的左上角走到右下角，每一步只能向上、向下或向右走一格，并且不能重复经过已经走过的方格，也不能走出边界。小熊会取走所有经过的方格中的整数，求它能取到的整数之和的最大值。
+
+ 输入格式
+
+第一行有两个整数 $n, m$。
+
+接下来 $n$ 行每行 $m$ 个整数，依次代表每个方格中的整数。
+
+ 输出格式
+
+一个整数，表示小熊能取到的整数之和的最大值。
+
+ 样例 1
+
+ 样例输入 1
+
+```
+3 4
+1 -1 3 2
+2 -1 4 -1
+-2 2 -3 -1
+```
+
+ 样例输出 1
+
+```
+9
+```
+
+ 样例 2
+
+ 样例输入 2
+
+```
+2 5
+-1 -1 -3 -2 -7
+-2 -1 -4 -1 -2
+```
+
+ 样例输出 2
+
+```
+-10
+```
+
+ 提示
+
+ 样例 1 解释
+
+ 样例 2 解释
+
+ 数据规模与约定
+- 对于 $20\%$ 的数据，$n, m \le 5$。
+- 对于 $40\%$ 的数据，$n, m \le 50$。
+- 对于 $70\%$ 的数据，$n, m \le 300$。
+- 对于 $100\%$ 的数据，$1 \le n,m \le 10^3$。方格中整数的绝对值不超过 $10^4$。
+
+------------
+2024/2/4 添加一组 hack 数据。
+\begin{lstlisting}[language=c++,breaklines=true]
+include <stdio.h>
+typedef long long LL;
+const LL min_ll = -1e18;
+int n, m; LL w[1005][1005], f[1005][1005][2];
+inline LL mx(LL p, LL q, LL r) {return p > q ? (p > r ? p : r) : (q > r ? q : r);}
+inline LL dfs(int x, int y, int from) {
+    if (x < 1 || x > n || y < 1 || y > m) return min_ll;
+    if (f[x][y][from] != min_ll) return f[x][y][from];
+    if (from == 0) f[x][y][from] = mx(dfs(x + 1, y, 0), dfs(x, y - 1, 0), dfs(x, y - 1, 1)) + w[x][y];
+    else f[x][y][from] = mx(dfs(x - 1, y, 1), dfs(x, y - 1, 0), dfs(x, y - 1, 1)) + w[x][y];
+    return f[x][y][from];
+}
+int main(void) {
+//	freopen("number.in", "r", stdin); freopen("number.out", "w", stdout);
+	scanf("%d %d", &n, &m);
+	for (int i = 1; i <= n; ++i)
+		for (int j = 1; j <= m; ++j) {
+			scanf("%lld", &w[i][j]);
+			f[i][j][0] = f[i][j][1] = min_ll;
+		}
+    f[1][1][0] = f[1][1][1] = w[1][1];
+	printf("%lld\n", dfs(n, m, 1));
+	return 0;
+}
+\end{lstlisting}
+
 \section{}
  [CSP-J2019] 纪念品
 
@@ -1357,6 +1642,196 @@ int main() {
 \end{lstlisting}
 
 \chapter{bfs}
+\section{}
+ [CSP-J2019] 加工零件
+
+ 题目描述
+
+凯凯的工厂正在有条不紊地生产一种神奇的零件，神奇的零件的生产过程自然也很神奇。工厂里有 $n$ 位工人，工人们从 $1 \sim n$ 编号。某些工人之间存在双向的零件传送带。保证每两名工人之间最多只存在一条传送带。
+
+如果 $x$ 号工人想生产一个被加工到第 $L\,(L>1)$ 阶段的零件，则**所有**与 $x$ 号工人有传送带**直接**相连的工人，都需要生产一个被加工到第 $L - 1$ 阶段的零件（但 $x$ 号工人自己**无需**生产第 $L - 1$ 阶段的零件）。
+
+如果 $x$ 号工人想生产一个被加工到第 $1$ 阶段的零件，则**所有**与 $x$ 号工人有传送带**直接**相连的工人，都需要为 $x$ 号工人提供一个原材料。
+
+轩轩是 $1$ 号工人。现在给出 $q$ 张工单，第 $i$ 张工单表示编号为 $a_i$ 的工人想生产一个第 $L_i$ 阶段的零件。轩轩想知道对于每张工单，他是否需要给别人提供原材料。他知道聪明的你一定可以帮他计算出来！
+
+ 输入格式
+
+第一行三个正整数 $n$，$m$ 和 $q$，分别表示工人的数目、传送带的数目和工单的数目。
+
+接下来 $m$ 行，每行两个正整数 $u$ 和 $v$，表示编号为 $u$ 和 $v$ 的工人之间存在一条零件传输带。保证 $u \neq v$。
+
+接下来 $q$ 行，每行两个正整数 $a$ 和 $L$，表示编号为 $a$ 的工人想生产一个第 $L$ 阶段的零件。
+
+ 输出格式
+
+共 $q$ 行，每行一个字符串 `Yes` 或者 `No`。如果按照第 $i$ 张工单生产，需要编号为 1 的轩轩提供原材料，则在第 $i$ 行输出 `Yes`；否则在第 $i$ 行输出 `No`。注意输出**不含**引号。
+
+ 样例 1
+
+ 样例输入 1
+
+```
+3 2 6
+1 2
+2 3
+1 1
+2 1
+3 1
+1 2
+2 2
+3 2
+```
+
+ 样例输出 1
+
+```
+No
+Yes
+No
+Yes
+No
+Yes
+```
+
+ 样例 2
+
+ 样例输入 2
+
+```
+5 5 5
+1 2
+2 3
+3 4
+4 5
+1 5
+1 1
+1 2
+1 3
+1 4
+1 5
+```
+
+ 样例输出 2
+
+```
+No
+Yes
+No
+Yes
+Yes
+```
+
+ 提示
+
+**样例 1 说明**
+
+编号为 1 的工人想生产第 1 阶段的零件，需要编号为 2 的工人提供原材料。
+
+编号为 2 的工人想生产第 1 阶段的零件，需要编号为 1 和 3 的工人提供原材料。
+
+编号为 3 的工人想生产第 1 阶段的零件，需要编号为 2 的工人提供原材料。
+
+编号为 1 的工人想生产第 2 阶段的零件，需要编号为 2 的工人生产第 1 阶段的零 件，需要编号为 1 和 3 的工人提供原材料。
+
+编号为 2 的工人想生产第 2 阶段的零件，需要编号为 1 和 3 的工人生产第 1 阶段的零件，他/她们都需要编号为 2 的工人提供原材料。
+
+编号为 3 的工人想生产第 2 阶段的零件，需要编号为 2 的工人生产第 1 阶段的零件，需要编号为 1 和 3 的工人提供原材料。
+
+**样例 2 说明**
+
+编号为 1 的工人想生产第 1 阶段的零件，需要编号为 2 和 5 的工人提供原材料。
+
+编号为 1 的工人想生产第 2 阶段的零件，需要编号为 2 和 5 的工人生产第 1 阶段的零件，需要编号为 1,3,4 的工人提供原材料。
+
+编号为 1 的工人想生产第 3 阶段的零件，需要编号为 2 和 5 的工人生产第 2 阶段的零件，需要编号为 1,3,4 的工人生产第 1 阶段的零件，需要编号为 2,3,4,5 的工人提供原材料。
+
+编号为 1 的工人想生产第 4 阶段的零件，需要编号为 2 和 5 的工人生产第 3 阶段的零件，需要编号为 1,3,4 的工人生产第 2 阶段的零件，需要编号为 2,3,4,5 的工人生产第 1 阶段的零件，需要全部工人提供原材料。
+
+编号为 1 的工人想生产第 5 阶段的零件，需要编号为 2 和 5 的工人生产第 4 阶段的零件，需要编号为 1,3,4 的工人生产第 3 阶段的零件，需要编号为 2,3,4,5 的工人生产第 2 阶段的零件，需要全部工人生产第 1 阶段的零件，需要全部工人提供原材料。
+
+**数据规模与约定**
+
+共 $20$ 个测试点。
+
+对所有测试点保证 $1 \leq u, v, a \leq n$。
+
+测试点 $1\sim4$，$1 \leq n, m \leq 1000$，$q = 3$，$L = 1$。
+
+测试点 $5\sim8$，$1 \leq n, m \leq 1000$，$q = 3$，$1 \leq L \leq 10$。
+
+测试点 $9\sim12$，$1 \leq n, m, L \leq 1000$，$1 \leq q \leq 100$。
+
+测试点 $13\sim16$，$1 \leq n, m, L \leq 1000$，$1 \leq q \leq 10^5$。
+
+测试点 $17\sim20$，$1 \leq n, m, q \leq 10^5$，$1 \leq L \leq 10^9$。
+\begin{lstlisting}[language=c++,breaklines=true]
+include <bits/stdc++.h>
+using namespace std;
+template<typename T>inline void read(T &FF){
+	T RR=1;FF=0;char CH=getchar();
+	for(;!isdigit(CH);CH=getchar())if(CH=='-')RR=-1;
+	for(;isdigit(CH);CH=getchar())FF=(FF<<1)+(FF<<3)+(CH^48);
+	FF*=RR;
+}
+template<typename T>void write(T x){
+	if(x<0)putchar('-'),x*=-1;
+	if(x>9)write(x/10);
+	putchar(x%10+48);
+}
+vector<int>v[100010];
+int ji[100010],ou[100010];
+void bfs(){
+	memset(ji,0x3f,sizeof(ji));//奇数最短路径
+	memset(ou,0x3f,sizeof(ou));//偶数最短路径
+	queue<pair<int,int> >q;
+	for(int i=0;i<v[1].size();i++){
+		ji[v[1][i]]=1;
+		q.push(make_pair(v[1][i],1));
+	}
+	while(q.size()){
+		int x=q.front().first,y=q.front().second;
+		for(int i=0;i<v[x].size();i++){
+			if(y%2==1){//奇数+1=偶数
+				if(y+1<ou[v[x][i]]){
+					ou[v[x][i]]=y+1;//更新答案
+					q.push(make_pair(v[x][i],y+1));
+				}
+			}else{//偶数+1=奇数
+				if(y+1<ji[v[x][i]]){
+					ji[v[x][i]]=y+1;//更新答案
+					q.push(make_pair(v[x][i],y+1));
+				}
+			}
+		}
+		q.pop();
+	}
+}
+int main(){
+	int n,m,q;
+	read(n);read(m);read(q);
+	for(int i=1;i<=m;i++){
+		int x,y;
+		read(x);read(y);//无向边
+		v[x].push_back(y);//连边
+		v[y].push_back(x);//连边
+	}
+	bfs();//跑最短路
+	while(q--){
+		int x,y;
+		read(x);read(y);
+		if(y%2==0){
+			if(ou[x]>y)puts("No");//如果大于就不可能了
+			else puts("Yes");
+		}else{
+			if(ji[x]>y)puts("No");//如果大于就不可能了
+			else puts("Yes");
+		}
+	}
+	return 0;
+}
+\end{lstlisting}
+
 \section{expr}
 expr-csp-j-2020-3\\
 表达式（expr）\\
@@ -1439,9 +1914,9 @@ x1 x2 \& x3 |\\
   \hline
 \end{tabular}
 \begin{lstlisting}[language=c++,breaklines=true]
-#include<cstdio>
-#define N 200010
-#define gc getchar()
+include<cstdio>
+define N 200010
+define gc getchar()
 using namespace std;
 struct node{
 	bool p1,p2,p3;
@@ -6242,19 +6717,126 @@ int main() {
 }
 \end{lstlisting}
 
+\chapter{backtracking}
 \section{}
-\begin{lstlisting}[language=c++,breaklines=true]
+ [CSP-J2019 江西] 非回文串
 
+ 题目描述
+
+Alice 有 $n$ 个字符，它们都是英文小写字母，从 $1 \sim n$ 编号，分别为 $c_1,c_2, \dots , c_n$。  
+Bob 准备将这些字符重新排列，组成一个字符串 $S$。Bob 知道 Alice 有强迫症，所以他打算将 $S$ 组成一个非回文串来折磨 Alice。  
+
+现在 Bob 想知道他共有多少种不同的排列字符的方案，能使得 $S$ 是个非回文串。一种排列字符的方案指的是一个 $1 \sim n$ 的排列 $p_i$，它所组成的 $S = c_{p_1}c_{p_2} \dots c_{p_n}$。
+
+一个字符串是非回文串，当且仅当它的逆序串与原串不同。例如 `abcda` 的逆序串为 `adcba`，与原串不同，故 `abcda` 是非回文串。而 `abcba` 的逆序串与原串相同，是回文串。
+
+由于最后的结果可能很大，你只需要告诉 Bob 总方案数对 $10^9+7$ 取模后的值。
+
+ 输入格式
+
+第一行一个正整数 $n$ 表示字符个数。   
+第二行 $n$ 个英文小写字母 $c_i$。
+
+ 输出格式
+
+仅一行一个整数表示答案。答案对 $10^9+7$ 取模。
+
+ 样例 1
+
+ 样例输入 1
+
+```
+3
+aba
+```
+
+ 样例输出 1
+
+```
+4
+```
+
+ 样例 2
+
+ 样例输入 2
+
+```
+8
+aabbbbcc
+```
+
+ 样例输出 2
+
+```
+39168
+```
+
+ 提示
+
+【数据范围】  
+对于 $20\%$ 的数据，$n \le 8$；  
+对于 $50\%$ 的数据，$n \le 20$；  
+另有 $30\%$ 的数据，字符只包含 `a` 和 `b`；  
+对于 $100\%$ 的数据，$3 \le n \le 2000$。
+\begin{lstlisting}[language=c++,breaklines=true]
+include<bits/stdc++.h>
+using namespace std;
+
+int read() {
+	register int x=1,ans=0;register char ch=getchar();
+	while(ch<'0'||ch>'9') {if(ch=='-') x*=-1;ch=getchar();}
+	while(ch>='0'&&ch<='9'){ans=(ans<<3)+(ans<<1)+ch-48;ch=getchar();}
+	return x*ans;
+}
+
+const long long N=2005,MOD=1e9+7;
+long long s[30],n,sum,ans;
+
+long long js(int a) {
+	long long res=1;
+	for(register long long i=1;i<=a;++i) {
+		res*=i; res%=MOD;
+	}
+	return res;
+}
+
+long long find(int x) {
+	long long res=1;
+	for(register long long i=1;x-i>0;i+=2) {
+		res*=i*2; res%=MOD;
+	}
+	if(x%2) res=res*x%MOD;
+	return res;
+}
+
+int main() {
+	n=read();
+	sum=js(n);
+	string a;
+	cin>>a;
+	for(register int i=0;i<n;++i) {
+		s[a[i]-'a']++;
+	}
+	long long k=0;
+	for(register int i=0;i<26;++i) {
+		if(s[i]%2) ++k; 
+	}
+	if(k>1) {printf("%lld\n",sum); return 0;}
+	ans=1; k=0;
+	for(register int i=0;i<26;++i) {
+		ans*=find(s[i]); ans%=MOD; k+=s[i]/2;
+	}
+	k=js(k);ans=(ans*k)%MOD;
+	ans=sum-ans;if(ans<0) ans+=MOD;
+	printf("%lld\n",ans);
+	return 0;
+}
 \end{lstlisting}
 
 \begin{lstlisting}[language=c++,breaklines=true]
 
 \end{lstlisting}
 
-\section{}
-\begin{lstlisting}[language=c++,breaklines=true]
-
-\end{lstlisting}
 
 \begin{lstlisting}[language=c++,breaklines=true]
 
