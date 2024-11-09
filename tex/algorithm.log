@@ -1,24 +1,25 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.10.18)  31 OCT 2024 17:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2024.10.19)  1 NOV 2024 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./algorithm.tex
 (algorithm.tex
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-08-30>
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30>
 (C:\Program Files\ctex\MiKTeX\tex/latex/ctex\ctexbook.cls
 (C:\Program Files\ctex\MiKTeX\tex/latex/ctex/config\ctexbackend.cfg
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-08-30 L3 programming layer (loader) 
+Package: expl3 2023-03-30 L3 programming layer (loader) 
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
-File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count190
-\l__pdf_internal_box=\box52
-\g__pdf_backend_annotation_int=\count191
-\g__pdf_backend_link_int=\count192
+File: l3backend-xetex.def 2023-03-30 L3 backend support: XeTeX
+\g__graphics_track_int=\count181
+\l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count182
+\g__pdf_backend_annotation_int=\count183
+\g__pdf_backend_link_int=\count184
 ))
 Document Class: ctexbook 2022/07/14 v2.5.10 Chinese adapter for class book (CTE
 X)
@@ -35,30 +36,30 @@ Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\l__ctex_tmp_int=\count193
-\l__ctex_tmp_box=\box53
-\l__ctex_tmp_dim=\dimen141
-\g__ctex_section_depth_int=\count194
-\g__ctex_font_size_int=\count195
+\l__ctex_tmp_int=\count185
+\l__ctex_tmp_box=\box52
+\l__ctex_tmp_dim=\dimen140
+\g__ctex_section_depth_int=\count186
+\g__ctex_font_size_int=\count187
 
 (C:\Program Files\ctex\CTeX\tex/latex/ctex/cfg\ctexopts.cfg)
 (C:\Program Files\ctex\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Program Files\ctex\MiKTeX\tex/latex/base\bk12.clo
-File: bk12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+File: bk12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count196
-\c@chapter=\count197
-\c@section=\count198
-\c@subsection=\count199
-\c@subsubsection=\count266
-\c@paragraph=\count267
-\c@subparagraph=\count268
-\c@figure=\count269
-\c@table=\count270
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen142
+\c@part=\count188
+\c@chapter=\count189
+\c@section=\count190
+\c@subsection=\count191
+\c@subsubsection=\count192
+\c@paragraph=\count193
+\c@subparagraph=\count194
+\c@figure=\count195
+\c@table=\count196
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen141
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/ctex/engine\ctex-engine-xetex.def
 File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
@@ -67,15 +68,19 @@ File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
 Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/l3packages/xtemplate\xtemplate.sty
-Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
+Package: xtemplate 2023-02-02 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen142
+\l__xtemplate_tmp_int=\count197
+\l__xtemplate_tmp_muskip=\muskip16
+\l__xtemplate_tmp_skip=\skip50
 )
-\l__xeCJK_tmp_int=\count271
-\l__xeCJK_tmp_box=\box54
+\l__xeCJK_tmp_int=\count198
+\l__xeCJK_tmp_box=\box53
 \l__xeCJK_tmp_dim=\dimen143
 \l__xeCJK_tmp_skip=\skip51
-\g__xeCJK_space_factor_int=\count272
-\l__xeCJK_begin_int=\count273
-\l__xeCJK_end_int=\count274
+\g__xeCJK_space_factor_int=\count199
+\l__xeCJK_begin_int=\count266
+\l__xeCJK_end_int=\count267
 \c__xeCJK_CJK_class_int=\XeTeXcharclass1
 \c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
 \c__xeCJK_FullRight_class_int=\XeTeXcharclass3
@@ -85,8 +90,8 @@ Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
 \c__xeCJK_CM_class_int=\XeTeXcharclass7
 \c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
 \l__xeCJK_last_skip=\skip52
-\c__xeCJK_none_node=\count275
-\g__xeCJK_node_int=\count276
+\c__xeCJK_none_node=\count268
+\g__xeCJK_node_int=\count269
 \c__xeCJK_CJK_node_dim=\dimen144
 \c__xeCJK_CJK-space_node_dim=\dimen145
 \c__xeCJK_default_node_dim=\dimen146
@@ -96,14 +101,14 @@ Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
 \l__xeCJK_ccglue_skip=\skip54
 \l__xeCJK_ecglue_skip=\skip55
 \l__xeCJK_punct_kern_skip=\skip56
-\l__xeCJK_indent_box=\box55
-\l__xeCJK_last_penalty_int=\count277
+\l__xeCJK_indent_box=\box54
+\l__xeCJK_last_penalty_int=\count270
 \l__xeCJK_last_bound_dim=\dimen149
 \l__xeCJK_last_kern_dim=\dimen150
-\l__xeCJK_widow_penalty_int=\count278
+\l__xeCJK_widow_penalty_int=\count271
 
-LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
-(template)           argument(s) on line 2396.
+Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
+(xtemplate)             argument(s) on line 2396.
 
 \l__xeCJK_fixed_punct_width_dim=\dimen151
 \l__xeCJK_mixed_punct_width_dim=\dimen152
@@ -124,32 +129,32 @@ LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
 \l__xeCJK_margin_dim=\dimen167
 \l__xeCJK_minimum_bound_dim=\dimen168
 \l__xeCJK_kerning_margin_dim=\dimen169
-\g__xeCJK_family_int=\count279
-\l__xeCJK_fam_int=\count280
-\g__xeCJK_fam_allocation_int=\count281
-\l__xeCJK_verb_case_int=\count282
+\g__xeCJK_family_int=\count272
+\l__xeCJK_fam_int=\count273
+\g__xeCJK_fam_allocation_int=\count274
+\l__xeCJK_verb_case_int=\count275
 \l__xeCJK_verb_exspace_skip=\skip57
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/fontspec\fontspec.sty
 (C:\Program Files\ctex\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2023-02-02 L3 Experimental document command parser
 )
-Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/fontspec\fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count283
-\l__fontspec_language_int=\count284
-\l__fontspec_strnum_int=\count285
-\l__fontspec_tmp_int=\count286
-\l__fontspec_tmpa_int=\count287
-\l__fontspec_tmpb_int=\count288
-\l__fontspec_tmpc_int=\count289
-\l__fontspec_em_int=\count290
-\l__fontspec_emdef_int=\count291
-\l__fontspec_strong_int=\count292
-\l__fontspec_strongdef_int=\count293
+\l__fontspec_script_int=\count276
+\l__fontspec_language_int=\count277
+\l__fontspec_strnum_int=\count278
+\l__fontspec_tmp_int=\count279
+\l__fontspec_tmpa_int=\count280
+\l__fontspec_tmpb_int=\count281
+\l__fontspec_tmpc_int=\count282
+\l__fontspec_em_int=\count283
+\l__fontspec_emdef_int=\count284
+\l__fontspec_strong_int=\count285
+\l__fontspec_strongdef_int=\count286
 \l__fontspec_tmpa_dim=\dimen170
 \l__fontspec_tmpb_dim=\dimen171
 \l__fontspec_tmpc_dim=\dimen172
@@ -168,8 +173,8 @@ File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/zhnumber\zhnumber.sty
 Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
-\l__zhnum_scale_int=\count294
-\l__zhnum_tmp_int=\count295
+\l__zhnum_scale_int=\count287
+\l__zhnum_tmp_int=\count288
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/zhnumber\zhnumber-utf8.cfg
 File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
@@ -187,23 +192,19 @@ File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
 File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTE
 X)
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "KaiTi/B" (it probably doesn't
+Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
 (fontspec)             exist).
 
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "SimHei/I" (it probably doesn't
+Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
 (fontspec)             exist).
 
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "SimSun/BI" (it probably doesn't
+Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
 (fontspec)             exist).
 
 
-Package fontspec Info: 
-(fontspec)             Font family 'SimSun(0)' created for font 'SimSun' with
+Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
 (fontspec)             options
 (fontspec)             [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
 (fontspec)              
@@ -212,10 +213,13 @@ Package fontspec Info:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"SimSun/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
 (fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
 (fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 
 )) (C:\Program Files\ctex\MiKTeX\tex/latex/ctex/config\ctex.cfg
 File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
@@ -230,7 +234,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks16
 \ex@=\dimen175
 ))
 (C:\Program Files\ctex\MiKTeX\tex/latex/amsmath\amsbsy.sty
@@ -240,19 +244,19 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Program Files\ctex\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count296
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count297
-\leftroot@=\count298
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count299
-\DOTSCASE@=\count300
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box56
-\strutbox@=\box57
+\Mathstrutbox@=\box55
+\strutbox@=\box56
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
@@ -260,31 +264,31 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen177
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count301
+\macc@depth=\count294
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count302
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip17
-\c@parentequation=\count303
-\dspbrk@lvl=\count304
-\tag@help=\toks18
-\row@=\count305
-\column@=\count306
-\maxfields@=\count307
-\andhelp@=\toks19
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
+\tag@help=\toks17
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
+\andhelp@=\toks18
 \eqnshift@=\dimen178
 \alignsep@=\dimen179
 \tagshift@=\dimen180
 \tagwidth@=\dimen181
 \totwidth@=\dimen182
 \lineht@=\dimen183
-\@envbody=\toks20
+\@envbody=\toks19
 \multlinegap=\skip61
 \multlinetaggap=\skip62
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -298,15 +302,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks22
-\thm@bodyfont=\toks23
-\thm@headfont=\toks24
-\thm@notefont=\toks25
-\thm@headpunct=\toks26
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
 \thm@preskip=\skip63
 \thm@postskip=\skip64
 \thm@headsep=\skip65
-\dth@everypar=\toks27
+\dth@everypar=\toks26
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/base\newlfont.sty
 Package: newlfont 1998/08/17 v2.2m Standard LaTeX package
@@ -332,7 +336,7 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks28
+\KV@toks@=\toks27
 )
 (C:\Program Files\ctex\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -340,9 +344,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Program Files\ctex\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count308
-\Gm@cntv=\count309
-\c@Gm@tempcnt=\count310
+\Gm@cnth=\count301
+\Gm@cntv=\count302
+\c@Gm@tempcnt=\count303
 \Gm@bindingoffset=\dimen184
 \Gm@wd@mp=\dimen185
 \Gm@odd@mp=\dimen186
@@ -351,35 +355,35 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen189
 \Gm@layouthoffset=\dimen190
 \Gm@layoutvoffset=\dimen191
-\Gm@dimlist=\toks29
+\Gm@dimlist=\toks28
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Program Files\ctex\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 106.
+Package graphics Info: Driver file: xetex.def on input line 107.
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/graphics-def\xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 (C:\Program Files\ctex\MiKTeX\tex/latex/slashbox\slashbox.sty
 slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box58
-\@slashboxb=\box59
-\@slashboxc=\box60
-\@slashboxwd=\count311
-\@slashboxht=\count312
+\@slashboxa=\box57
+\@slashboxb=\box58
+\@slashboxc=\box59
+\@slashboxwd=\count304
+\@slashboxht=\count305
 \@slashsepl=\dimen192
 \@slashsepr=\dimen193
 ) (C:\Program Files\ctex\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and foote
-rs
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip66
 \f@nch@O@elh=\skip67
 \f@nch@O@erh=\skip68
@@ -411,7 +415,7 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
 (C:\Program Files\ctex\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -436,37 +440,34 @@ LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count313
-\lst@gtempboxa=\box61
-\lst@token=\toks30
-\lst@length=\count314
+\lst@mode=\count306
+\lst@gtempboxa=\box60
+\lst@token=\toks29
+\lst@length=\count307
 \lst@currlwidth=\dimen196
-\lst@column=\count315
-\lst@pos=\count316
+\lst@column=\count308
+\lst@pos=\count309
 \lst@lostspace=\dimen197
 \lst@width=\dimen198
-\lst@newlines=\count317
-\lst@lineno=\count318
+\lst@newlines=\count310
+\lst@lineno=\count311
 \lst@maxwidth=\dimen199
 
-(C:\Program Files\ctex\MiKTeX\tex/latex/listings\lstpatch.sty
-File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
-)
 (C:\Program Files\ctex\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
-\c@lstnumber=\count319
-\lst@skipnumbers=\count320
-\lst@framebox=\box62
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count312
+\lst@skipnumbers=\count313
+\lst@framebox=\box61
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2024/05/25 1.10b listings configuration
+File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
-Package: listings 2024/05/25 1.10b (Carsten Heinz)
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
 (C:\Program Files\ctex\MiKTeX\tex/xelatex/xecjk\xeCJK-listings.sty
 Package: xeCJK-listings 2022/08/05 v3.9.1 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count321
-\l__xeCJK_listings_flag_int=\count322
+\l__xeCJK_listings_max_char_int=\count314
+\l__xeCJK_listings_flag_int=\count315
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
@@ -476,14 +477,14 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
 ) (C:\Program Files\ctex\MiKTeX\tex/latex/ulem\ulem.sty
-\UL@box=\box63
-\UL@hyphenbox=\box64
+\UL@box=\box62
+\UL@hyphenbox=\box63
 \UL@skip=\skip75
-\UL@hook=\toks31
+\UL@hook=\toks30
 \UL@height=\dimen256
-\UL@pe=\count323
+\UL@pe=\count316
 \UL@pixel=\dimen257
-\ULC@box=\box65
+\ULC@box=\box64
 Package: ulem 2019/11/18
 \ULdepth=\dimen258
 )
@@ -498,9 +499,9 @@ Package natbib Warning: The `cite' package should not be used
 \bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \citenum on input line 708.
-\c@NAT@ctr=\count324
+\c@NAT@ctr=\count317
 ) (C:\Program Files\ctex\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
 
 (C:\Program Files\ctex\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
@@ -508,8 +509,14 @@ Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 (C:\Program Files\ctex\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
+(C:\Program Files\ctex\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Program Files\ctex\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
 (C:\Program Files\ctex\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -517,45 +524,40 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Program Files\ctex\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count325
-)
-(C:\Program Files\ctex\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count326
-)
-(C:\Program Files\ctex\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+\c@section@level=\count318
 )
 \@linkdim=\dimen259
-\Hy@linkcounter=\count327
-\Hy@pagecounter=\count328
+\Hy@linkcounter=\count319
+\Hy@pagecounter=\count320
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 )
 (C:\Program Files\ctex\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count329
+(C:\Program Files\ctex\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count321
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4040.
-Package hyperref Info: Option `CJKbookmarks' set `true' on input line 4040.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4040.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4040
+Package hyperref Info: Option `unicode' set `true' on input line 4060.
+Package hyperref Info: Option `CJKbookmarks' set `true' on input line 4060.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4060.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4060
 .
-Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4060.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count330
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count322
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
@@ -571,7 +573,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count331
+\Fld@menulength=\count323
 \Field@Width=\dimen261
 \Fld@charsize=\dimen262
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -586,19 +588,24 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count332
-\c@Item=\count333
-\c@Hfootnote=\count334
+\Hy@abspage=\count324
+\c@Item=\count325
+\c@Hfootnote=\count326
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/hyperref\hxetex.def
-File: hxetex.def 2024-07-10 v7.01j Hyperref driver for XeTeX
-\pdfm@box=\box66
-\c@Hy@AnnotLevel=\count335
-\HyField@AnnotCount=\count336
-\Fld@listcount=\count337
-\c@bookmark@seq@number=\count338
+File: hxetex.def 2023-02-07 v7.00v Hyperref driver for XeTeX
+
+(C:\Program Files\ctex\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box65
+\c@Hy@AnnotLevel=\count327
+\HyField@AnnotCount=\count328
+\Fld@listcount=\count329
+\c@bookmark@seq@number=\count330
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -617,13 +624,13 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip78
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/titlesec\titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box67
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box66
 \beforetitleunit=\skip79
 \aftertitleunit=\skip80
 \ttl@plus=\dimen263
 \ttl@minus=\dimen264
-\ttl@toksa=\toks32
+\ttl@toksa=\toks31
 \titlewidth=\dimen265
 \titlewidthlast=\dimen266
 \titlewidthfirst=\dimen267
@@ -646,7 +653,7 @@ Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 114.
 (C:\Program Files\ctex\MiKTeX\tex/latex/pict2e\p2e-xetex.def
 File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks33
+\pIIe@GRAPH=\toks32
 \@arclen=\dimen268
 \@arcrad=\dimen269
 \pIIe@tempdima=\dimen270
@@ -657,31 +664,31 @@ File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \pIIe@tempdimf=\dimen275
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/tools\calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count339
-\calc@Bcount=\count340
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count331
+\calc@Bcount=\count332
 \calc@Adimen=\dimen276
 \calc@Bdimen=\dimen277
 \calc@Askip=\skip81
 \calc@Bskip=\skip82
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count341
+\calc@Ccount=\count333
 \calc@Cskip=\skip83
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/tools\array.sty
-Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen278
-\ar@mcellbox=\box68
+\ar@mcellbox=\box67
 \extrarowheight=\dimen279
-\NC@list=\toks34
+\NC@list=\toks33
 \extratabsurround=\skip84
 \backup@length=\skip85
-\ar@cellbox=\box69
+\ar@cellbox=\box68
 )
-\diagbox@boxa=\box70
-\diagbox@boxb=\box71
-\diagbox@boxm=\box72
+\diagbox@boxa=\box69
+\diagbox@boxb=\box70
+\diagbox@boxm=\box71
 \diagbox@wd=\dimen280
 \diagbox@ht=\dimen281
 \diagbox@insepl=\dimen282
@@ -698,18 +705,15 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 (C:\Program Files\ctex\MiKTeX\tex/latex/tipa\t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Microsoft YaHei Bold/I" (it
+Package fontspec Info: Could not resolve font "Microsoft YaHei Bold/I" (it
 (fontspec)             probably doesn't exist).
 
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "Microsoft YaHei/I" (it probably
+Package fontspec Info: Could not resolve font "Microsoft YaHei/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: 
-(fontspec)             Font family 'MicrosoftYaHei(0)' created for font
+Package fontspec Info: Font family 'MicrosoftYaHei(0)' created for font
 (fontspec)             'Microsoft YaHei' with options
 (fontspec)             [Script={CJK},BoldFont={* Bold}].
 (fontspec)              
@@ -718,10 +722,13 @@ Package fontspec Info:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Microsoft
 (fontspec)             YaHei/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Microsoft YaHei
 (fontspec)             Bold/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Microsoft
 (fontspec)             YaHei/BI/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Trying to load font information for T3+lmss on input line 3
 57.
@@ -767,8 +774,7 @@ LaTeX Font Info:    ... okay on input line 73.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
 
-Package fontspec Info: 
-(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup8
@@ -858,9 +864,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count342
+\c@lstlisting=\count334
 (C:\Program Files\ctex\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2024/01/14 v1.3d Standard LaTeX Color (DPC)
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -878,12 +884,9 @@ File: shuwenhe.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[1
+ [1
 
 ]
-
 [2]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
 
@@ -901,58 +904,44 @@ LaTeX Font Info:    Trying to load font information for U+wasy on input line 93
 
 (C:\Program Files\ctex\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-
-[1
+) [1
 
 ] (algorithm.toc
-
 [2
 
 ]
 Underfull \vbox (badness 1365) has occurred while \output is active []
 
-
-
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
 35.
-[3]
-
+ [3]
 [4]
 Underfull \vbox (badness 1365) has occurred while \output is active []
 
-
-
-[5]
-
+ [5]
 [6])
 \tf@toc=\write4
 \openout4 = `algorithm.toc'.
 
-
-
-[7]
+ [7]
 第一章
-
-
 [8
 
 ] (C:\Program Files\ctex\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/05/25 1.10b listings language file
+File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/05/25 1.10b listings language file
+File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 (C:\Program Files\ctex\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -966,10 +955,9 @@ File: pku.png Graphic file (type bmp)
 [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -983,10 +971,9 @@ File: pku.png Graphic file (type bmp)
 [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -998,9 +985,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [11]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1014,10 +1001,9 @@ File: pku.png Graphic file (type bmp)
 [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1031,10 +1017,9 @@ File: pku.png Graphic file (type bmp)
 [13]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1048,10 +1033,9 @@ File: pku.png Graphic file (type bmp)
 [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1065,10 +1049,9 @@ File: pku.png Graphic file (type bmp)
 [15]
 Underfull \vbox (badness 4316) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1082,10 +1065,9 @@ File: pku.png Graphic file (type bmp)
 [16]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1099,10 +1081,9 @@ File: pku.png Graphic file (type bmp)
 [17]
 Underfull \vbox (badness 4316) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1116,10 +1097,9 @@ File: pku.png Graphic file (type bmp)
 [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1133,10 +1113,9 @@ File: pku.png Graphic file (type bmp)
 [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1148,9 +1127,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [20]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1164,10 +1143,9 @@ File: pku.png Graphic file (type bmp)
 [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1183,10 +1161,9 @@ Missing character: There is no 、 in font [lmroman12-regular]:mapping=tex-text;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1200,10 +1177,9 @@ File: pku.png Graphic file (type bmp)
 [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1219,10 +1195,9 @@ Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;
 
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1236,10 +1211,9 @@ File: pku.png Graphic file (type bmp)
 [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1251,9 +1225,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [26]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1267,10 +1241,9 @@ File: pku.png Graphic file (type bmp)
 [27]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1284,10 +1257,9 @@ File: pku.png Graphic file (type bmp)
 [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1299,9 +1271,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [29]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1317,8 +1289,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 1004--1024
 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -1333,23 +1303,19 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [31]
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "FangSong/BI" (it probably
+Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "FangSong/B" (it probably
+Package fontspec Info: Could not resolve font "FangSong/B" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "FangSong/I" (it probably
+Package fontspec Info: Could not resolve font "FangSong/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: 
-(fontspec)             Font family 'FangSong(0)' created for font 'FangSong'
+Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             with options [Script={CJK}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
@@ -1357,6 +1323,7 @@ Package fontspec Info:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
 Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;!
@@ -1366,10 +1333,9 @@ Missing character: There is no ≤ in font [lmroman12-regular]:mapping=tex-text;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1383,10 +1349,9 @@ File: pku.png Graphic file (type bmp)
 [32]
 Underfull \vbox (badness 1603) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1406,10 +1371,9 @@ Overfull \hbox (236.31046pt too wide) in paragraph at lines 1095--1096
 
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1421,9 +1385,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [34]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1437,10 +1401,9 @@ File: pku.png Graphic file (type bmp)
 [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1454,10 +1417,9 @@ File: pku.png Graphic file (type bmp)
 [36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1469,9 +1431,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [37]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1483,9 +1445,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [38]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1506,17 +1468,14 @@ Overfull \hbox (14.25352pt too wide) in paragraph at lines 1339--1388
 imSun(0)/m/n/12 。| 
  []
 
-
-
 [40
 
 ]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1530,10 +1489,9 @@ File: pku.png Graphic file (type bmp)
 [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1549,8 +1507,6 @@ Overfull \hbox (142.7095pt too wide) in paragraph at lines 1464--1465
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][] 
  []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -1573,8 +1529,6 @@ LaTeX Font Info:    No file T3lmr.fd. on input line 1495.
 LaTeX Font Warning: Font shape `T3/lmr/m/n' undefined
 (Font)              using `T3/cmr/m/n' instead on input line 1495.
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -1590,10 +1544,9 @@ File: pku.png Graphic file (type bmp)
 [44]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1605,9 +1558,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [45]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1623,10 +1576,9 @@ Missing character: There is no ＝ in font [lmroman12-regular]:mapping=tex-text;
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1640,10 +1592,9 @@ File: pku.png Graphic file (type bmp)
 [47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1657,10 +1608,9 @@ File: pku.png Graphic file (type bmp)
 [48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1672,9 +1622,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [49]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1687,17 +1637,14 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [50]
 第三章
-
-
 [51
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1711,10 +1658,9 @@ File: pku.png Graphic file (type bmp)
 [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1728,10 +1674,9 @@ File: pku.png Graphic file (type bmp)
 [53]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1753,10 +1698,9 @@ Missing character: There is no 𝑥 in font [lmroman12-regular]:mapping=tex-text
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1770,10 +1714,9 @@ File: pku.png Graphic file (type bmp)
 [55]
 Underfull \vbox (badness 1603) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1785,9 +1728,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [56]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1801,10 +1744,9 @@ File: pku.png Graphic file (type bmp)
 [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1818,10 +1760,9 @@ File: pku.png Graphic file (type bmp)
 [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1835,10 +1776,9 @@ File: pku.png Graphic file (type bmp)
 [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1852,10 +1792,9 @@ File: pku.png Graphic file (type bmp)
 [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1869,10 +1808,9 @@ File: pku.png Graphic file (type bmp)
 [61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1886,10 +1824,9 @@ File: pku.png Graphic file (type bmp)
 [62]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1903,10 +1840,9 @@ File: pku.png Graphic file (type bmp)
 [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1920,10 +1856,9 @@ File: pku.png Graphic file (type bmp)
 [64]
 File: bus.png Graphic file (type bmp)
 <bus.png>
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1937,10 +1872,9 @@ File: pku.png Graphic file (type bmp)
 [65]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1954,10 +1888,9 @@ File: pku.png Graphic file (type bmp)
 [66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1969,9 +1902,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [67]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -1989,16 +1922,12 @@ Overfull \hbox (142.7095pt too wide) in paragraph at lines 2413--2414
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-
 [69
 
 ]
 Overfull \hbox (56.30862pt too wide) in paragraph at lines 2443--2444
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2015,10 +1944,9 @@ File: pku.png Graphic file (type bmp)
 [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2032,10 +1960,9 @@ File: pku.png Graphic file (type bmp)
 [71]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2049,10 +1976,9 @@ File: pku.png Graphic file (type bmp)
 [72]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2064,9 +1990,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [73]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2080,10 +2006,9 @@ File: pku.png Graphic file (type bmp)
 [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2109,10 +2034,9 @@ Overfull \hbox (10.17514pt too wide) in paragraph at lines 2683--2696
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2126,10 +2050,9 @@ File: pku.png Graphic file (type bmp)
 [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2143,10 +2066,9 @@ File: pku.png Graphic file (type bmp)
 [77]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2158,9 +2080,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [78]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2173,14 +2095,12 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [79]
 第五章
-
-
 [80
 
 ]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2194,10 +2114,9 @@ File: pku.png Graphic file (type bmp)
 [81]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2209,9 +2128,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [82]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2223,9 +2142,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [83]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2237,9 +2156,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [84]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2253,10 +2172,9 @@ File: pku.png Graphic file (type bmp)
 [85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2270,10 +2188,9 @@ File: pku.png Graphic file (type bmp)
 [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2285,9 +2202,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [87]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2305,17 +2222,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3248--3278
 
  []
 
-
-
 [89
 
 ]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2327,9 +2241,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [90]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2341,9 +2255,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [91]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2357,10 +2271,9 @@ File: pku.png Graphic file (type bmp)
 [92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2372,9 +2285,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [93]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2387,14 +2300,12 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [94]
 第七章
-
-
 [95
 
 ]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2407,14 +2318,12 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [96]
 第八章
-
-
 [97
 
 ]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2428,10 +2337,9 @@ File: pku.png Graphic file (type bmp)
 [98]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2443,9 +2351,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [99]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2458,17 +2366,14 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [100]
 第九章
-
-
 [101
 
 ]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2480,9 +2385,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [102]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2496,10 +2401,9 @@ File: pku.png Graphic file (type bmp)
 [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2513,10 +2417,9 @@ File: pku.png Graphic file (type bmp)
 [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2530,10 +2433,9 @@ File: pku.png Graphic file (type bmp)
 [105]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2545,9 +2447,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [106]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2559,9 +2461,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [107]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2575,10 +2477,9 @@ File: pku.png Graphic file (type bmp)
 [108]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2590,9 +2491,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [109]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2606,10 +2507,9 @@ File: pku.png Graphic file (type bmp)
 [110]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2623,10 +2523,9 @@ File: pku.png Graphic file (type bmp)
 [111]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2638,9 +2537,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [112]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2654,10 +2553,9 @@ File: pku.png Graphic file (type bmp)
 [113]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2672,8 +2570,6 @@ File: pku.png Graphic file (type bmp)
 Underfull \hbox (badness 10000) in paragraph at lines 4227--4245
 
  []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -2695,10 +2591,9 @@ Overfull \hbox (70.70877pt too wide) in paragraph at lines 4266--4267
 
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2710,9 +2605,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [116]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2726,10 +2621,9 @@ File: pku.png Graphic file (type bmp)
 [117]
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2752,8 +2646,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 4400--4426
 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -2767,9 +2659,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [119]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2781,9 +2673,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [120]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2796,17 +2688,14 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [121]
 第十章
-
-
 [122
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2819,8 +2708,6 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [123]
 Missing character: There is no ， in font [lmroman12-regular]:mapping=tex-text;!
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -2836,10 +2723,9 @@ File: pku.png Graphic file (type bmp)
 [124]
 Underfull \vbox (badness 4403) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2858,10 +2744,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 4663--4689
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2875,10 +2760,9 @@ File: pku.png Graphic file (type bmp)
 [126]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2894,8 +2778,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 4723--4734
 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -2909,9 +2791,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [128]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2923,9 +2805,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [129]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2940,17 +2822,14 @@ File: pku.png Graphic file (type bmp)
 第十一章
 File: transform.png Graphic file (type bmp)
 <transform.png>
-
-
 [131
 
 ]
 Underfull \vbox (badness 1264) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2964,10 +2843,9 @@ File: pku.png Graphic file (type bmp)
 [132]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2981,10 +2859,9 @@ File: pku.png Graphic file (type bmp)
 [133]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -2998,10 +2875,9 @@ File: pku.png Graphic file (type bmp)
 [134]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3015,10 +2891,9 @@ File: pku.png Graphic file (type bmp)
 [135]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3030,9 +2905,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [136]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3053,17 +2928,14 @@ Overfull \hbox (14.25352pt too wide) in paragraph at lines 4999--5048
 imSun(0)/m/n/12 。| 
  []
 
-
-
 [138
 
 ]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3077,10 +2949,9 @@ File: pku.png Graphic file (type bmp)
 [139]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3100,10 +2971,9 @@ Overfull \hbox (20.30826pt too wide) in paragraph at lines 5126--5127
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3119,8 +2989,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5172--5187
 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -3134,9 +3002,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [142]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3164,8 +3032,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5240--5321
 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -3181,10 +3047,9 @@ File: pku.png Graphic file (type bmp)
 [144]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3198,10 +3063,9 @@ File: pku.png Graphic file (type bmp)
 [145]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3213,9 +3077,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [146]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3229,10 +3093,9 @@ File: pku.png Graphic file (type bmp)
 [147]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3247,8 +3110,6 @@ File: pku.png Graphic file (type bmp)
 Overfull \hbox (13.10818pt too wide) in paragraph at lines 5450--5451
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -3268,8 +3129,6 @@ Overfull \hbox (164.30972pt too wide) in paragraph at lines 5456--5457
 ][][][][][][][][][][][][][] 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -3288,8 +3147,6 @@ Overfull \hbox (229.11038pt too wide) in paragraph at lines 5504--5505
 ][][][][][][][][][][][][][] 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -3303,9 +3160,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [151]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3319,10 +3176,9 @@ File: pku.png Graphic file (type bmp)
 [152]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3339,10 +3195,9 @@ File: num.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3354,9 +3209,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [154]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3368,9 +3223,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [155]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3384,10 +3239,9 @@ File: pku.png Graphic file (type bmp)
 [156]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3401,10 +3255,9 @@ File: pku.png Graphic file (type bmp)
 [157]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3419,8 +3272,6 @@ File: pku.png Graphic file (type bmp)
 Underfull \hbox (badness 10000) in paragraph at lines 5786--5832
 
  []
-
-
 
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
@@ -3437,10 +3288,9 @@ File: pku.png Graphic file (type bmp)
 [159]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3459,10 +3309,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5894--5895
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3484,8 +3333,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5920--5998
 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -3501,10 +3348,9 @@ File: pku.png Graphic file (type bmp)
 [162]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3522,8 +3368,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 6000--6015
 
  []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
 
@@ -3539,10 +3383,9 @@ File: pku.png Graphic file (type bmp)
 [164]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3554,9 +3397,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [165]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3569,17 +3412,14 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [166]
 第十三章
-
-
 [167
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3593,10 +3433,9 @@ File: pku.png Graphic file (type bmp)
 [168]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3608,9 +3447,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [169]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3624,10 +3463,9 @@ File: pku.png Graphic file (type bmp)
 [170]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3641,10 +3479,9 @@ File: pku.png Graphic file (type bmp)
 [171]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3658,10 +3495,9 @@ File: pku.png Graphic file (type bmp)
 [172]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3673,9 +3509,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [173]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3688,17 +3524,14 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [174]
 第十四章
-
-
 [175
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3712,10 +3545,9 @@ File: pku.png Graphic file (type bmp)
 [176]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3729,10 +3561,9 @@ File: pku.png Graphic file (type bmp)
 [177]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3746,10 +3577,9 @@ File: pku.png Graphic file (type bmp)
 [178]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3761,9 +3591,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [179]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3776,17 +3606,14 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [180]
 第十五章
-
-
 [181
 
 ]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3800,10 +3627,9 @@ File: pku.png Graphic file (type bmp)
 [182]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3815,9 +3641,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [183]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3833,17 +3659,14 @@ File: pku.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[185
+ [185
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3855,9 +3678,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [186]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3871,10 +3694,9 @@ File: pku.png Graphic file (type bmp)
 [187]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3886,9 +3708,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [188]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3901,17 +3723,14 @@ File: pku.png Graphic file (type bmp)
 <pku.png>
 [189]
 第十七章
-
-
 [190
 
 ]
 Underfull \vbox (badness 2941) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3925,10 +3744,9 @@ File: pku.png Graphic file (type bmp)
 [191]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3940,9 +3758,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [192]
-
 File: shuwenedu.png Graphic file (type bmp)
 <shuwenedu.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.6951pt, for example:
@@ -3954,11 +3772,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: pku.png Graphic file (type bmp)
 <pku.png>
 [193] (algorithm.aux)
- ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2022/08/05>
- ***********
-
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3966,12 +3779,12 @@ Package rerunfilecheck Info: File `algorithm.out' has not changed.
 (rerunfilecheck)             Checksum: 8E9B6C90A4C3EFACA26F414A92A3D444;10505.
  ) 
 Here is how much of TeX's memory you used:
- 21416 strings out of 408993
- 432799 string characters out of 5759005
- 1197101 words of memory out of 5000000
- 43773 multiletter control sequences out of 15000+600000
- 570247 words of font info for 127 fonts, out of 8000000 for 9000
+ 21602 strings out of 411427
+ 445006 string characters out of 5820271
+ 2065290 words of memory out of 5000000
+ 41513 multiletter control sequences out of 15000+600000
+ 524465 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,13n,131p,1209b,1864s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,13n,108p,1209b,1857s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on algorithm.pdf (195 pages).
